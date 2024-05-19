@@ -1,0 +1,50 @@
+{
+  "Web Development": {
+    "HTML & CSS": ["Introduction to HTML", "Advanced CSS", "Responsive Web Design"],
+    "JavaScript": ["JavaScript Basics", "JavaScript for Web Development", "Advanced JavaScript"],
+    "React": ["React Basics", "Advanced React"]
+  },
+  "Data Science": {
+    "Python for Data Science": ["Python Basics", "Data Analysis with Python", "Machine Learning with Python"],
+    "Data Analysis": ["Data Analysis Techniques", "Data Visualization", "Advanced Data Visualization"],
+    "R for Data Science": ["R Basics", "Advanced Data Visualization with R"]
+  },
+  "Machine Learning": {
+    "Introduction to ML": ["Basics of Machine Learning", "Advanced ML Techniques", "ML Algorithms"],
+    "Deep Learning": ["Neural Networks", "Deep Learning with TensorFlow", "Advanced Deep Learning"]
+  },
+  "Mobile Development": {
+    "Android Development": ["Introduction to Android", "Advanced Android", "Kotlin for Android"],
+    "iOS Development": ["Introduction to iOS", "Swift Programming", "Advanced iOS Development"]
+  },
+  "Business": {
+    "Entrepreneurship": ["Starting a Business", "Scaling Your Startup", "Business Plan Development"],
+    "Marketing": ["Digital Marketing", "Brand Management", "Marketing Analytics"],
+    "Finance": ["Financial Modeling", "Corporate Finance"]
+  },
+  "Cloud Computing": {
+    "AWS": ["AWS Fundamentals", "Advanced AWS", "AWS Security"],
+    "Azure": ["Azure Basics", "Advanced Azure"],
+    "Google Cloud": ["Google Cloud Fundamentals", "Google Cloud Security"]
+  },
+  "Cybersecurity": {
+    "Network Security": ["Introduction to Network Security", "Advanced Network Security", "Network Security Tools"],
+    "Ethical Hacking": ["Ethical Hacking for Beginners", "Advanced Penetration Testing", "Certified Ethical Hacker Preparation"],
+    "Cybersecurity Management": ["Cybersecurity Risk Management", "Incident Response Planning"]
+  },
+  "Software Development": {
+    "DevOps": ["DevOps Fundamentals", "Advanced DevOps", "CI/CD Pipelines"],
+    "Software Testing": ["Introduction to Software Testing", "Automated Testing", "Performance Testing"],
+    "Agile Methodologies": ["Agile Basics", "Advanced Agile", "Scrum Master Certification"]
+  },
+  "Artificial Intelligence": {
+    "AI Fundamentals": ["Introduction to AI", "AI in Business", "AI Ethics"],
+    "NLP": ["Natural Language Processing Basics", "Advanced NLP", "NLP with Python"],
+    "Computer Vision": ["Computer Vision Basics", "Advanced Computer Vision", "Computer Vision with Python"]
+  },
+  "Project Management": {
+    "PMP": ["PMP Certification Preparation", "Advanced PMP Techniques"],
+    "Agile": ["Agile Project Management", "Scrum Master Certification", "Kanban Methodologies"],
+    "Risk Management": ["Project Risk Management", "Advanced Risk Management"]
+  }
+}

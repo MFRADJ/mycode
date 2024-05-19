@@ -1,0 +1,3728 @@
+{
+  "Web Development": {
+    "HTML & CSS": [
+      {
+        "title": "Introduction to HTML",
+        "description": "Learn the basics of HTML.",
+        "instructor": "John Doe",
+        "rating": 4.5,
+        "duration": 5,
+        "level": "Beginner",
+        "language": "English",
+        "price": 19.99,
+        "popularity": 100,
+        "date": "2021-01-01",
+        "participants": 13249,
+        "objectives": [
+          "Utiliser les requêtes AJAX",
+          "Avoir tout ce qu’il faut pour maîtriser REELLEMENT JavaScript",
+          "Les objets de JavaScript"
+        ],
+        "prerequisites": [
+          "Connaissances de base en programmation",
+          "Accès à un ordinateur"
+        ],
+        "content": [
+          {
+            "title": "Avant de commencer ce cours",
+            "subsections": [
+              { "title": "Qu’allons-nous faire dans cette formation ?", "duration": 4.34 },
+              { "title": "Prérequis", "duration": 1.16 },
+              { "title": "Comment réussir cette formation ?", "duration": 3.05 },
+              { "title": "Comment poser mes questions ?", "duration": 4.4 },
+              { "title": "Récupérez votre livre offert", "duration": 0.3 }
+            ]
+          },
+          {
+            "title": "Orientation",
+            "subsections": [
+              { "title": "Orientation", "duration": 1 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "HTML Basics - Live Session",
+            "start": "2024-05-25T14:00:00Z",
+            "end": "2024-05-25T15:00:00Z"
+          },
+          {
+            "title": "Advanced CSS - Live Session",
+            "start": "2024-06-01T16:00:00Z",
+            "end": "2024-06-01T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced CSS",
+        "description": "Deep dive into advanced CSS techniques.",
+        "instructor": "Jane Smith",
+        "rating": 4.7,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 29.99,
+        "popularity": 150,
+        "date": "2021-06-01",
+        "participants": 8543,
+        "objectives": [
+          "Master complex CSS selectors",
+          "Understand CSS Grid and Flexbox",
+          "Create responsive web designs"
+        ],
+        "prerequisites": [
+          "Basic understanding of CSS",
+          "Experience with HTML"
+        ],
+        "content": [
+          {
+            "title": "CSS Selectors",
+            "subsections": [
+              { "title": "Advanced Selectors", "duration": 5.2 },
+              { "title": "Pseudo-classes and Pseudo-elements", "duration": 3.4 }
+            ]
+          },
+          {
+            "title": "Layout Techniques",
+            "subsections": [
+              { "title": "Flexbox", "duration": 6.5 },
+              { "title": "CSS Grid", "duration": 7.8 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Flexbox Deep Dive - Live Session",
+            "start": "2024-07-01T14:00:00Z",
+            "end": "2024-07-01T15:00:00Z"
+          },
+          {
+            "title": "CSS Grid - Live Session",
+            "start": "2024-07-15T16:00:00Z",
+            "end": "2024-07-15T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Responsive Web Design",
+        "description": "Learn how to create responsive websites using CSS and HTML.",
+        "instructor": "Emily Johnson",
+        "rating": 4.8,
+        "duration": 8,
+        "level": "Intermediate",
+        "language": "Spanish",
+        "price": 24.99,
+        "popularity": 200,
+        "date": "2021-08-01",
+        "participants": 9320,
+        "objectives": [
+          "Understand responsive design principles",
+          "Use media queries effectively",
+          "Implement flexible layouts"
+        ],
+        "prerequisites": [
+          "Basic knowledge of HTML and CSS",
+          "Access to a computer"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Responsive Design",
+            "subsections": [
+              { "title": "What is Responsive Design?", "duration": 3.0 },
+              { "title": "Mobile-First Design", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Media Queries",
+            "subsections": [
+              { "title": "Using Media Queries", "duration": 4.0 },
+              { "title": "Advanced Media Queries", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Responsive Design - Live Session",
+            "start": "2024-08-10T14:00:00Z",
+            "end": "2024-08-10T15:00:00Z"
+          },
+          {
+            "title": "Advanced Media Queries - Live Session",
+            "start": "2024-08-20T16:00:00Z",
+            "end": "2024-08-20T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "JavaScript": [
+      {
+        "title": "JavaScript Basics",
+        "description": "Introduction to JavaScript programming.",
+        "instructor": "Michael Brown",
+        "rating": 4.4,
+        "duration": 6,
+        "level": "Beginner",
+        "language": "English",
+        "price": 21.99,
+        "popularity": 250,
+        "date": "2021-03-01",
+        "participants": 9421,
+        "objectives": [
+          "Understand JavaScript syntax",
+          "Learn basic programming concepts",
+          "Write simple JavaScript programs"
+        ],
+        "prerequisites": [
+          "Basic knowledge of HTML and CSS",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "JavaScript Basics",
+            "subsections": [
+              { "title": "Variables and Data Types", "duration": 5.0 },
+              { "title": "Control Structures", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Functions",
+            "subsections": [
+              { "title": "Defining Functions", "duration": 3.5 },
+              { "title": "Function Scope", "duration": 4.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "JavaScript Syntax - Live Session",
+            "start": "2024-06-05T14:00:00Z",
+            "end": "2024-06-05T15:00:00Z"
+          },
+          {
+            "title": "Writing Functions - Live Session",
+            "start": "2024-06-12T16:00:00Z",
+            "end": "2024-06-12T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "JavaScript for Web Development",
+        "description": "Learn JavaScript for building dynamic web applications.",
+        "instructor": "Sarah Williams",
+        "rating": 4.6,
+        "duration": 9,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 27.99,
+        "popularity": 300,
+        "date": "2021-07-01",
+        "participants": 10245,
+        "objectives": [
+          "Understand DOM manipulation",
+          "Learn event handling",
+          "Implement AJAX requests"
+        ],
+        "prerequisites": [
+          "Basic knowledge of JavaScript",
+          "Experience with HTML and CSS"
+        ],
+        "content": [
+          {
+            "title": "DOM Manipulation",
+            "subsections": [
+              { "title": "Selecting Elements", "duration": 5.0 },
+              { "title": "Changing Content", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Event Handling",
+            "subsections": [
+              { "title": "Adding Event Listeners", "duration": 4.0 },
+              { "title": "Event Delegation", "duration": 3.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "DOM Manipulation - Live Session",
+            "start": "2024-07-10T14:00:00Z",
+            "end": "2024-07-10T15:00:00Z"
+          },
+          {
+            "title": "Event Handling - Live Session",
+            "start": "2024-07-20T16:00:00Z",
+            "end": "2024-07-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced JavaScript",
+        "description": "Master advanced JavaScript concepts and techniques.",
+        "instructor": "Rachel Lee",
+        "rating": 4.9,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "German",
+        "price": 39.99,
+        "popularity": 300,
+        "date": "2021-09-01",
+        "participants": 11235,
+        "objectives": [
+          "Understand asynchronous JavaScript",
+          "Master closures and callbacks",
+          "Implement advanced data structures"
+        ],
+        "prerequisites": [
+          "Strong understanding of basic JavaScript",
+          "Experience with web development"
+        ],
+        "content": [
+          {
+            "title": "Asynchronous JavaScript",
+            "subsections": [
+              { "title": "Promises", "duration": 6.0 },
+              { "title": "Async/Await", "duration": 5.5 }
+            ]
+          },
+          {
+            "title": "Advanced Concepts",
+            "subsections": [
+              { "title": "Closures", "duration": 4.5 },
+              { "title": "Callbacks", "duration": 4.2 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Understanding Promises - Live Session",
+            "start": "2024-09-10T14:00:00Z",
+            "end": "2024-09-10T15:00:00Z"
+          },
+          {
+            "title": "Advanced Data Structures - Live Session",
+            "start": "2024-09-17T16:00:00Z",
+            "end": "2024-09-17T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "React": [
+      {
+        "title": "React Basics",
+        "description": "Learn the fundamentals of React.",
+        "instructor": "Anna Davis",
+        "rating": 4.6,
+        "duration": 7,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 180,
+        "date": "2021-04-01",
+        "participants": 7543,
+        "objectives": [
+          "Understand React components",
+          "Manage state in React",
+          "Learn React lifecycle methods"
+        ],
+        "prerequisites": [
+          "Basic knowledge of JavaScript",
+          "Experience with HTML and CSS"
+        ],
+        "content": [
+          {
+            "title": "React Components",
+            "subsections": [
+              { "title": "Creating Components", "duration": 4.0 },
+              { "title": "Props and State", "duration": 3.5 }
+            ]
+          },
+          {
+            "title": "Lifecycle Methods",
+            "subsections": [
+              { "title": "Component Lifecycle", "duration": 4.5 },
+              { "title": "Using Lifecycle Methods", "duration": 4.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "React Components - Live Session",
+            "start": "2024-04-10T14:00:00Z",
+            "end": "2024-04-10T15:00:00Z"
+          },
+          {
+            "title": "State Management - Live Session",
+            "start": "2024-04-20T16:00:00Z",
+            "end": "2024-04-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced React",
+        "description": "Deep dive into advanced React techniques.",
+        "instructor": "Mark Wilson",
+        "rating": 4.8,
+        "duration": 9,
+        "level": "Advanced",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-10-01",
+        "participants": 8542,
+        "objectives": [
+          "Learn advanced state management",
+          "Understand React hooks",
+          "Implement context API"
+        ],
+        "prerequisites": [
+          "Strong understanding of basic React",
+          "Experience with JavaScript"
+        ],
+        "content": [
+          {
+            "title": "Advanced State Management",
+            "subsections": [
+              { "title": "Using Redux", "duration": 6.0 },
+              { "title": "Context API", "duration": 5.5 }
+            ]
+          },
+          {
+            "title": "React Hooks",
+            "subsections": [
+              { "title": "Introduction to Hooks", "duration": 4.5 },
+              { "title": "Custom Hooks", "duration": 4.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Redux Basics - Live Session",
+            "start": "2024-10-10T14:00:00Z",
+            "end": "2024-10-10T15:00:00Z"
+          },
+          {
+            "title": "Using React Hooks - Live Session",
+            "start": "2024-10-20T16:00:00Z",
+            "end": "2024-10-20T17:00:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  "Data Science": {
+    "Python for Data Science": [
+      {
+        "title": "Python Basics",
+        "description": "Learn the fundamentals of Python programming.",
+        "instructor": "Carol Green",
+        "rating": 4.1,
+        "duration": 6,
+        "level": "Beginner",
+        "language": "English",
+        "price": 19.99,
+        "popularity": 180,
+        "date": "2021-02-01",
+        "participants": 8234,
+        "objectives": [
+          "Understand Python syntax",
+          "Learn basic programming constructs",
+          "Write simple Python scripts"
+        ],
+        "prerequisites": [
+          "Basic computer skills",
+          "A computer with Python installed"
+        ],
+        "content": [
+          {
+            "title": "Getting Started with Python",
+            "subsections": [
+              { "title": "Installing Python", "duration": 2.0 },
+              { "title": "Hello World Program", "duration": 1.5 }
+            ]
+          },
+          {
+            "title": "Python Basics",
+            "subsections": [
+              { "title": "Variables and Data Types", "duration": 4.0 },
+              { "title": "Control Flow", "duration": 3.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Python Installation - Live Session",
+            "start": "2024-05-25T14:00:00Z",
+            "end": "2024-05-25T15:00:00Z"
+          },
+          {
+            "title": "Basic Python Programming - Live Session",
+            "start": "2024-06-01T16:00:00Z",
+            "end": "2024-06-01T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Data Analysis with Python",
+        "description": "Learn to analyze data using Python libraries.",
+        "instructor": "Dave White",
+        "rating": 4.6,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-07-01",
+        "participants": 10234,
+        "objectives": [
+          "Use Python for data analysis",
+          "Master libraries like Pandas and NumPy",
+          "Create visualizations with Matplotlib"
+        ],
+        "prerequisites": [
+          "Basic knowledge of Python",
+          "Familiarity with data structures"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Data Analysis",
+            "subsections": [
+              { "title": "What is Data Analysis?", "duration": 2.5 },
+              { "title": "Setting Up Your Environment", "duration": 3.0 }
+            ]
+          },
+          {
+            "title": "Data Manipulation with Pandas",
+            "subsections": [
+              { "title": "Reading and Writing Data", "duration": 4.5 },
+              { "title": "Data Cleaning", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Getting Started with Pandas - Live Session",
+            "start": "2024-07-05T14:00:00Z",
+            "end": "2024-07-05T15:00:00Z"
+          },
+          {
+            "title": "Data Visualization - Live Session",
+            "start": "2024-07-12T16:00:00Z",
+            "end": "2024-07-12T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Machine Learning with Python",
+        "description": "An introduction to machine learning using Python.",
+        "instructor": "Laura Black",
+        "rating": 4.7,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "Spanish",
+        "price": 44.99,
+        "popularity": 300,
+        "date": "2021-11-01",
+        "participants": 13254,
+        "objectives": [
+          "Understand machine learning concepts",
+          "Implement algorithms using Python",
+          "Evaluate model performance"
+        ],
+        "prerequisites": [
+          "Basic knowledge of Python",
+          "Understanding of statistics"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Machine Learning",
+            "subsections": [
+              { "title": "What is Machine Learning?", "duration": 3.0 },
+              { "title": "Supervised vs Unsupervised Learning", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Algorithms and Models",
+            "subsections": [
+              { "title": "Linear Regression", "duration": 5.0 },
+              { "title": "Decision Trees", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Machine Learning - Live Session",
+            "start": "2024-11-05T14:00:00Z",
+            "end": "2024-11-05T15:00:00Z"
+          },
+          {
+            "title": "Evaluating Model Performance - Live Session",
+            "start": "2024-11-15T16:00:00Z",
+            "end": "2024-11-15T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Data Analysis": [
+      {
+        "title": "Data Analysis Techniques",
+        "description": "Learn various data analysis techniques.",
+        "instructor": "Sam Blue",
+        "rating": 4.3,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-05-01",
+        "participants": 8432,
+        "objectives": [
+          "Understand different data analysis methods",
+          "Apply techniques to real-world datasets",
+          "Interpret analysis results"
+        ],
+        "prerequisites": [
+          "Basic knowledge of statistics",
+          "Experience with a programming language"
+        ],
+        "content": [
+          {
+            "title": "Exploratory Data Analysis",
+            "subsections": [
+              { "title": "Data Exploration", "duration": 4.0 },
+              { "title": "Summary Statistics", "duration": 3.5 }
+            ]
+          },
+          {
+            "title": "Data Cleaning",
+            "subsections": [
+              { "title": "Handling Missing Data", "duration": 4.5 },
+              { "title": "Data Transformation", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Data Exploration - Live Session",
+            "start": "2024-05-10T14:00:00Z",
+            "end": "2024-05-10T15:00:00Z"
+          },
+          {
+            "title": "Data Cleaning Techniques - Live Session",
+            "start": "2024-05-20T16:00:00Z",
+            "end": "2024-05-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Data Visualization",
+        "description": "Learn to create data visualizations using popular tools.",
+        "instructor": "Jessica Brown",
+        "rating": 4.6,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-08-01",
+        "participants": 9234,
+        "objectives": [
+          "Create visual representations of data",
+          "Use tools like Matplotlib and Seaborn",
+          "Communicate data insights effectively"
+        ],
+        "prerequisites": [
+          "Basic knowledge of data analysis",
+          "Experience with a programming language"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Data Visualization",
+            "subsections": [
+              { "title": "Importance of Visualization", "duration": 2.5 },
+              { "title": "Choosing the Right Chart", "duration": 3.0 }
+            ]
+          },
+          {
+            "title": "Visualization Tools",
+            "subsections": [
+              { "title": "Using Matplotlib", "duration": 4.5 },
+              { "title": "Using Seaborn", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Getting Started with Matplotlib - Live Session",
+            "start": "2024-08-05T14:00:00Z",
+            "end": "2024-08-05T15:00:00Z"
+          },
+          {
+            "title": "Creating Charts with Seaborn - Live Session",
+            "start": "2024-08-15T16:00:00Z",
+            "end": "2024-08-15T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Data Visualization",
+        "description": "Master advanced data visualization techniques.",
+        "instructor": "Michael Green",
+        "rating": 4.7,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "German",
+        "price": 39.99,
+        "popularity": 250,
+        "date": "2021-12-01",
+        "participants": 10234,
+        "objectives": [
+          "Create complex visualizations",
+          "Use libraries like ggplot2",
+          "Implement interactive visualizations"
+        ],
+        "prerequisites": [
+          "Strong understanding of data visualization",
+          "Experience with visualization tools"
+        ],
+        "content": [
+          {
+            "title": "Advanced ggplot2",
+            "subsections": [
+              { "title": "Custom Themes", "duration": 5.0 },
+              { "title": "Faceting", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Interactive Visualizations",
+            "subsections": [
+              { "title": "Using Shiny", "duration": 6.0 },
+              { "title": "Creating Dashboards", "duration": 5.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Custom Themes in ggplot2 - Live Session",
+            "start": "2024-12-05T14:00:00Z",
+            "end": "2024-12-05T15:00:00Z"
+          },
+          {
+            "title": "Creating Dashboards with Shiny - Live Session",
+            "start": "2024-12-15T16:00:00Z",
+            "end": "2024-12-15T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "R for Data Science": [
+      {
+        "title": "R Basics",
+        "description": "Learn the basics of R programming.",
+        "instructor": "Tom Harris",
+        "rating": 4.2,
+        "duration": 7,
+        "level": "Beginner",
+        "language": "English",
+        "price": 22.99,
+        "popularity": 150,
+        "date": "2021-03-01",
+        "participants": 5234,
+        "objectives": [
+          "Understand R syntax",
+          "Perform basic data analysis",
+          "Create simple visualizations"
+        ],
+        "prerequisites": [
+          "Basic computer skills",
+          "A computer with R installed"
+        ],
+        "content": [
+          {
+            "title": "Getting Started with R",
+            "subsections": [
+              { "title": "Installing R and RStudio", "duration": 2.0 },
+              { "title": "Basic R Syntax", "duration": 3.0 }
+            ]
+          },
+          {
+            "title": "Data Analysis with R",
+            "subsections": [
+              { "title": "Reading Data", "duration": 4.0 },
+              { "title": "Data Cleaning", "duration": 3.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "R Installation - Live Session",
+            "start": "2024-05-25T14:00:00Z",
+            "end": "2024-05-25T15:00:00Z"
+          },
+          {
+            "title": "Basic Data Analysis - Live Session",
+            "start": "2024-06-01T16:00:00Z",
+            "end": "2024-06-01T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Data Visualization with R",
+        "description": "Master advanced data visualization techniques in R.",
+        "instructor": "Susan Clark",
+        "rating": 4.5,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 180,
+        "date": "2021-08-01",
+        "participants": 8345,
+        "objectives": [
+          "Create complex visualizations",
+          "Use libraries like ggplot2",
+          "Implement interactive visualizations"
+        ],
+        "prerequisites": [
+          "Strong understanding of R",
+          "Experience with basic data visualization"
+        ],
+        "content": [
+          {
+            "title": "Advanced ggplot2",
+            "subsections": [
+              { "title": "Custom Themes", "duration": 5.0 },
+              { "title": "Faceting", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Interactive Visualizations",
+            "subsections": [
+              { "title": "Using Shiny", "duration": 6.0 },
+              { "title": "Creating Dashboards", "duration": 5.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Custom Themes in ggplot2 - Live Session",
+            "start": "2024-08-05T14:00:00Z",
+            "end": "2024-08-05T15:00:00Z"
+          },
+          {
+            "title": "Creating Dashboards with Shiny - Live Session",
+            "start": "2024-08-12T16:00:00Z",
+            "end": "2024-08-12T17:00:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  "Machine Learning": {
+    "Introduction to ML": [
+      {
+        "title": "Basics of Machine Learning",
+        "description": "An introduction to the basics of machine learning.",
+        "instructor": "Alice White",
+        "rating": 4.4,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-04-01",
+        "participants": 9532,
+        "objectives": [
+          "Understand machine learning concepts",
+          "Learn basic algorithms",
+          "Implement algorithms in Python"
+        ],
+        "prerequisites": [
+          "Basic programming knowledge",
+          "Familiarity with Python"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Machine Learning",
+            "subsections": [
+              { "title": "What is Machine Learning?", "duration": 3.0 },
+              { "title": "Types of Machine Learning", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Basic Algorithms",
+            "subsections": [
+              { "title": "Linear Regression", "duration": 5.0 },
+              { "title": "K-Nearest Neighbors", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Machine Learning - Live Session",
+            "start": "2024-04-10T14:00:00Z",
+            "end": "2024-04-10T15:00:00Z"
+          },
+          {
+            "title": "Implementing Algorithms - Live Session",
+            "start": "2024-04-20T16:00:00Z",
+            "end": "2024-04-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced ML Techniques",
+        "description": "Explore advanced machine learning techniques.",
+        "instructor": "Bob Black",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 39.99,
+        "popularity": 250,
+        "date": "2021-08-01",
+        "participants": 10532,
+        "objectives": [
+          "Learn advanced algorithms",
+          "Understand model evaluation techniques",
+          "Implement advanced models in Python"
+        ],
+        "prerequisites": [
+          "Basic understanding of machine learning",
+          "Experience with Python"
+        ],
+        "content": [
+          {
+            "title": "Advanced Algorithms",
+            "subsections": [
+              { "title": "Support Vector Machines", "duration": 5.5 },
+              { "title": "Random Forests", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Model Evaluation",
+            "subsections": [
+              { "title": "Cross-Validation", "duration": 4.0 },
+              { "title": "Hyperparameter Tuning", "duration": 3.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced Algorithms - Live Session",
+            "start": "2024-08-10T14:00:00Z",
+            "end": "2024-08-10T15:00:00Z"
+          },
+          {
+            "title": "Model Evaluation Techniques - Live Session",
+            "start": "2024-08-20T16:00:00Z",
+            "end": "2024-08-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "ML Algorithms",
+        "description": "Learn about different machine learning algorithms.",
+        "instructor": "Charlie Green",
+        "rating": 4.8,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "French",
+        "price": 44.99,
+        "popularity": 300,
+        "date": "2021-12-01",
+        "participants": 12345,
+        "objectives": [
+          "Understand a variety of ML algorithms",
+          "Implement algorithms using Python",
+          "Evaluate and compare algorithm performance"
+        ],
+        "prerequisites": [
+          "Strong understanding of machine learning",
+          "Experience with Python"
+        ],
+        "content": [
+          {
+            "title": "Classification Algorithms",
+            "subsections": [
+              { "title": "Logistic Regression", "duration": 5.0 },
+              { "title": "Naive Bayes", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Clustering Algorithms",
+            "subsections": [
+              { "title": "K-Means Clustering", "duration": 5.0 },
+              { "title": "Hierarchical Clustering", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Classification Algorithms - Live Session",
+            "start": "2024-12-05T14:00:00Z",
+            "end": "2024-12-05T15:00:00Z"
+          },
+          {
+            "title": "Clustering Algorithms - Live Session",
+            "start": "2024-12-15T16:00:00Z",
+            "end": "2024-12-15T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Deep Learning": [
+      {
+        "title": "Neural Networks",
+        "description": "Learn the fundamentals of neural networks.",
+        "instructor": "David Blue",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 220,
+        "date": "2021-05-01",
+        "participants": 9345,
+        "objectives": [
+          "Understand the basics of neural networks",
+          "Learn how to implement neural networks",
+          "Evaluate neural network models"
+        ],
+        "prerequisites": [
+          "Basic understanding of machine learning",
+          "Experience with Python"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Neural Networks",
+            "subsections": [
+              { "title": "What are Neural Networks?", "duration": 3.5 },
+              { "title": "Neuron Model", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Building Neural Networks",
+            "subsections": [
+              { "title": "Feedforward Networks", "duration": 5.0 },
+              { "title": "Backpropagation", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Neural Networks - Live Session",
+            "start": "2024-05-10T14:00:00Z",
+            "end": "2024-05-10T15:00:00Z"
+          },
+          {
+            "title": "Building Neural Networks - Live Session",
+            "start": "2024-05-20T16:00:00Z",
+            "end": "2024-05-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Deep Learning with TensorFlow",
+        "description": "Master deep learning using TensorFlow.",
+        "instructor": "Eve Brown",
+        "rating": 4.8,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "Spanish",
+        "price": 39.99,
+        "popularity": 280,
+        "date": "2021-09-01",
+        "participants": 11234,
+        "objectives": [
+          "Learn to build models with TensorFlow",
+          "Understand deep learning architectures",
+          "Implement deep learning projects"
+        ],
+        "prerequisites": [
+          "Strong understanding of neural networks",
+          "Experience with Python"
+        ],
+        "content": [
+          {
+            "title": "Introduction to TensorFlow",
+            "subsections": [
+              { "title": "What is TensorFlow?", "duration": 3.0 },
+              { "title": "Setting Up TensorFlow", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Building Deep Learning Models",
+            "subsections": [
+              { "title": "Convolutional Neural Networks", "duration": 5.0 },
+              { "title": "Recurrent Neural Networks", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Getting Started with TensorFlow - Live Session",
+            "start": "2024-09-05T14:00:00Z",
+            "end": "2024-09-05T15:00:00Z"
+          },
+          {
+            "title": "Building CNNs - Live Session",
+            "start": "2024-09-15T16:00:00Z",
+            "end": "2024-09-15T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Deep Learning",
+        "description": "Deep dive into advanced deep learning techniques.",
+        "instructor": "Frank White",
+        "rating": 4.9,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "German",
+        "price": 49.99,
+        "popularity": 320,
+        "date": "2021-11-01",
+        "participants": 13456,
+        "objectives": [
+          "Master advanced deep learning models",
+          "Implement state-of-the-art techniques",
+          "Solve complex problems with deep learning"
+        ],
+        "prerequisites": [
+          "Strong understanding of deep learning",
+          "Experience with TensorFlow"
+        ],
+        "content": [
+          {
+            "title": "Advanced Architectures",
+            "subsections": [
+              { "title": "Generative Adversarial Networks", "duration": 6.0 },
+              { "title": "Transformer Models", "duration": 5.5 }
+            ]
+          },
+          {
+            "title": "Advanced Techniques",
+            "subsections": [
+              { "title": "Transfer Learning", "duration": 4.5 },
+              { "title": "Hyperparameter Optimization", "duration": 4.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Generative Adversarial Networks - Live Session",
+            "start": "2024-11-10T14:00:00Z",
+            "end": "2024-11-10T15:00:00Z"
+          },
+          {
+            "title": "Advanced Techniques - Live Session",
+            "start": "2024-11-20T16:00:00Z",
+            "end": "2024-11-20T17:00:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  "Mobile Development": {
+    "Android Development": [
+      {
+        "title": "Introduction to Android",
+        "description": "Learn the basics of Android app development.",
+        "instructor": "Grace Green",
+        "rating": 4.3,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "English",
+        "price": 24.99,
+        "popularity": 180,
+        "date": "2021-02-01",
+        "participants": 8423,
+        "objectives": [
+          "Understand Android development basics",
+          "Build simple Android apps",
+          "Deploy apps to the Google Play Store"
+        ],
+        "prerequisites": [
+          "Basic programming knowledge",
+          "Access to an Android device"
+        ],
+        "content": [
+          {
+            "title": "Getting Started with Android",
+            "subsections": [
+              { "title": "Setting Up the Environment", "duration": 3.0 },
+              { "title": "Hello World App", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Building Simple Apps",
+            "subsections": [
+              { "title": "Layouts and Views", "duration": 5.0 },
+              { "title": "User Input", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Getting Started with Android - Live Session",
+            "start": "2024-02-10T14:00:00Z",
+            "end": "2024-02-10T15:00:00Z"
+          },
+          {
+            "title": "Building Simple Apps - Live Session",
+            "start": "2024-02-20T16:00:00Z",
+            "end": "2024-02-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Android",
+        "description": "Deep dive into advanced Android development.",
+        "instructor": "Hank Brown",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "Spanish",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-08-01",
+        "participants": 9534,
+        "objectives": [
+          "Master advanced Android features",
+          "Implement complex UI components",
+          "Optimize app performance"
+        ],
+        "prerequisites": [
+          "Strong understanding of basic Android development",
+          "Experience with Java or Kotlin"
+        ],
+        "content": [
+          {
+            "title": "Advanced UI Components",
+            "subsections": [
+              { "title": "Custom Views", "duration": 5.5 },
+              { "title": "Animations", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Performance Optimization",
+            "subsections": [
+              { "title": "Memory Management", "duration": 4.5 },
+              { "title": "Battery Optimization", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced UI Components - Live Session",
+            "start": "2024-08-10T14:00:00Z",
+            "end": "2024-08-10T15:00:00Z"
+          },
+          {
+            "title": "Performance Optimization - Live Session",
+            "start": "2024-08-20T16:00:00Z",
+            "end": "2024-08-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Kotlin for Android",
+        "description": "Learn Kotlin for Android development.",
+        "instructor": "Ivy Blue",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-06-01",
+        "participants": 8423,
+        "objectives": [
+          "Understand Kotlin syntax",
+          "Build Android apps using Kotlin",
+          "Leverage Kotlin features in Android development"
+        ],
+        "prerequisites": [
+          "Basic understanding of Android development",
+          "Experience with a programming language"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Kotlin",
+            "subsections": [
+              { "title": "What is Kotlin?", "duration": 3.0 },
+              { "title": "Setting Up Kotlin for Android", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Kotlin Features",
+            "subsections": [
+              { "title": "Kotlin Basics", "duration": 5.0 },
+              { "title": "Advanced Kotlin Features", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Kotlin - Live Session",
+            "start": "2024-06-05T14:00:00Z",
+            "end": "2024-06-05T15:00:00Z"
+          },
+          {
+            "title": "Advanced Kotlin Features - Live Session",
+            "start": "2024-06-15T16:00:00Z",
+            "end": "2024-06-15T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "iOS Development": [
+      {
+        "title": "Introduction to iOS",
+        "description": "Learn the basics of iOS app development.",
+        "instructor": "Jack White",
+        "rating": 4.4,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "French",
+        "price": 24.99,
+        "popularity": 170,
+        "date": "2021-03-01",
+        "participants": 7345,
+        "objectives": [
+          "Understand iOS development basics",
+          "Build simple iOS apps",
+          "Deploy apps to the App Store"
+        ],
+        "prerequisites": [
+          "Basic programming knowledge",
+          "Access to an iOS device"
+        ],
+        "content": [
+          {
+            "title": "Getting Started with iOS",
+            "subsections": [
+              { "title": "Setting Up the Environment", "duration": 3.0 },
+              { "title": "Hello World App", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Building Simple Apps",
+            "subsections": [
+              { "title": "Layouts and Views", "duration": 5.0 },
+              { "title": "User Input", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Getting Started with iOS - Live Session",
+            "start": "2024-03-10T14:00:00Z",
+            "end": "2024-03-10T15:00:00Z"
+          },
+          {
+            "title": "Building Simple Apps - Live Session",
+            "start": "2024-03-20T16:00:00Z",
+            "end": "2024-03-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Swift Programming",
+        "description": "Learn Swift programming for iOS development.",
+        "instructor": "Karen Black",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 210,
+        "date": "2021-06-01",
+        "participants": 8423,
+        "objectives": [
+          "Understand Swift syntax",
+          "Build iOS apps using Swift",
+          "Leverage Swift features in iOS development"
+        ],
+        "prerequisites": [
+          "Basic understanding of iOS development",
+          "Experience with a programming language"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Swift",
+            "subsections": [
+              { "title": "What is Swift?", "duration": 3.0 },
+              { "title": "Setting Up Swift for iOS", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Swift Features",
+            "subsections": [
+              { "title": "Swift Basics", "duration": 5.0 },
+              { "title": "Advanced Swift Features", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Swift - Live Session",
+            "start": "2024-06-10T14:00:00Z",
+            "end": "2024-06-10T15:00:00Z"
+          },
+          {
+            "title": "Advanced Swift Features - Live Session",
+            "start": "2024-06-20T16:00:00Z",
+            "end": "2024-06-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced iOS Development",
+        "description": "Deep dive into advanced iOS development techniques.",
+        "instructor": "Leo Green",
+        "rating": 4.8,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 240,
+        "date": "2021-09-01",
+        "participants": 9452,
+        "objectives": [
+          "Master advanced iOS features",
+          "Implement complex UI components",
+          "Optimize app performance"
+        ],
+        "prerequisites": [
+          "Strong understanding of basic iOS development",
+          "Experience with Swift or Objective-C"
+        ],
+        "content": [
+          {
+            "title": "Advanced UI Components",
+            "subsections": [
+              { "title": "Custom Views", "duration": 5.5 },
+              { "title": "Animations", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Performance Optimization",
+            "subsections": [
+              { "title": "Memory Management", "duration": 4.5 },
+              { "title": "Battery Optimization", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced UI Components - Live Session",
+            "start": "2024-09-10T14:00:00Z",
+            "end": "2024-09-10T15:00:00Z"
+          },
+          {
+            "title": "Performance Optimization - Live Session",
+            "start": "2024-09-20T16:00:00Z",
+            "end": "2024-09-20T17:00:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  "Business": {
+    "Entrepreneurship": [
+      {
+        "title": "Starting a Business",
+        "description": "Learn how to start your own business.",
+        "instructor": "Maria White",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-04-01",
+        "participants": 8532,
+        "objectives": [
+          "Understand business fundamentals",
+          "Develop a business plan",
+          "Learn how to secure funding"
+        ],
+        "prerequisites": [
+          "Basic knowledge of business concepts",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Entrepreneurship",
+            "subsections": [
+              { "title": "What is Entrepreneurship?", "duration": 3.0 },
+              { "title": "Starting Your Journey", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Business Planning",
+            "subsections": [
+              { "title": "Writing a Business Plan", "duration": 5.0 },
+              { "title": "Securing Funding", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Entrepreneurship - Live Session",
+            "start": "2024-04-10T14:00:00Z",
+            "end": "2024-04-10T15:00:00Z"
+          },
+          {
+            "title": "Writing a Business Plan - Live Session",
+            "start": "2024-04-20T16:00:00Z",
+            "end": "2024-04-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Scaling Your Startup",
+        "description": "Learn strategies for scaling your startup.",
+        "instructor": "Nathan Brown",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-07-01",
+        "participants": 9534,
+        "objectives": [
+          "Develop growth strategies",
+          "Understand market expansion",
+          "Optimize business operations"
+        ],
+        "prerequisites": [
+          "Basic understanding of business operations",
+          "Experience with running a business"
+        ],
+        "content": [
+          {
+            "title": "Growth Strategies",
+            "subsections": [
+              { "title": "Market Analysis", "duration": 5.0 },
+              { "title": "Scaling Techniques", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Operational Optimization",
+            "subsections": [
+              { "title": "Process Improvement", "duration": 4.5 },
+              { "title": "Resource Management", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Growth Strategies - Live Session",
+            "start": "2024-07-10T14:00:00Z",
+            "end": "2024-07-10T15:00:00Z"
+          },
+          {
+            "title": "Operational Optimization - Live Session",
+            "start": "2024-07-20T16:00:00Z",
+            "end": "2024-07-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Business Plan Development",
+        "description": "Learn how to develop a comprehensive business plan.",
+        "instructor": "Olivia Green",
+        "rating": 4.8,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "German",
+        "price": 39.99,
+        "popularity": 250,
+        "date": "2021-11-01",
+        "participants": 10532,
+        "objectives": [
+          "Create detailed business plans",
+          "Understand financial projections",
+          "Present business plans to investors"
+        ],
+        "prerequisites": [
+          "Basic knowledge of business planning",
+          "Experience with business operations"
+        ],
+        "content": [
+          {
+            "title": "Business Plan Components",
+            "subsections": [
+              { "title": "Executive Summary", "duration": 6.0 },
+              { "title": "Market Analysis", "duration": 5.5 }
+            ]
+          },
+          {
+            "title": "Financial Projections",
+            "subsections": [
+              { "title": "Creating Financial Projections", "duration": 4.5 },
+              { "title": "Presenting to Investors", "duration": 4.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Business Plan Components - Live Session",
+            "start": "2024-11-10T14:00:00Z",
+            "end": "2024-11-10T15:00:00Z"
+          },
+          {
+            "title": "Creating Financial Projections - Live Session",
+            "start": "2024-11-20T16:00:00Z",
+            "end": "2024-11-20T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Marketing": [
+      {
+        "title": "Digital Marketing",
+        "description": "Learn the fundamentals of digital marketing.",
+        "instructor": "Paul Blue",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-05-01",
+        "participants": 8543,
+        "objectives": [
+          "Understand digital marketing strategies",
+          "Learn to use marketing tools",
+          "Develop a digital marketing plan"
+        ],
+        "prerequisites": [
+          "Basic knowledge of marketing concepts",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Digital Marketing",
+            "subsections": [
+              { "title": "What is Digital Marketing?", "duration": 3.0 },
+              { "title": "Digital Marketing Channels", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Marketing Tools",
+            "subsections": [
+              { "title": "Using Google Analytics", "duration": 5.0 },
+              { "title": "SEO Basics", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Digital Marketing - Live Session",
+            "start": "2024-05-10T14:00:00Z",
+            "end": "2024-05-10T15:00:00Z"
+          },
+          {
+            "title": "Using Google Analytics - Live Session",
+            "start": "2024-05-20T16:00:00Z",
+            "end": "2024-05-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Brand Management",
+        "description": "Learn how to manage and grow a brand.",
+        "instructor": "Quincy White",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 210,
+        "date": "2021-08-01",
+        "participants": 9532,
+        "objectives": [
+          "Develop brand strategies",
+          "Understand brand positioning",
+          "Learn to create brand equity"
+        ],
+        "prerequisites": [
+          "Basic knowledge of marketing",
+          "Experience with brand management"
+        ],
+        "content": [
+          {
+            "title": "Brand Strategies",
+            "subsections": [
+              { "title": "Brand Identity", "duration": 5.0 },
+              { "title": "Brand Positioning", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Creating Brand Equity",
+            "subsections": [
+              { "title": "Brand Equity Models", "duration": 4.5 },
+              { "title": "Brand Valuation", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Brand Strategies - Live Session",
+            "start": "2024-08-10T14:00:00Z",
+            "end": "2024-08-10T15:00:00Z"
+          },
+          {
+            "title": "Creating Brand Equity - Live Session",
+            "start": "2024-08-20T16:00:00Z",
+            "end": "2024-08-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Marketing Analytics",
+        "description": "Learn to analyze marketing data to drive decisions.",
+        "instructor": "Rachel Black",
+        "rating": 4.8,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "Spanish",
+        "price": 39.99,
+        "popularity": 240,
+        "date": "2021-12-01",
+        "participants": 10345,
+        "objectives": [
+          "Understand marketing data",
+          "Use analytics tools",
+          "Make data-driven marketing decisions"
+        ],
+        "prerequisites": [
+          "Basic knowledge of marketing",
+          "Experience with data analysis"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Marketing Analytics",
+            "subsections": [
+              { "title": "What is Marketing Analytics?", "duration": 3.5 },
+              { "title": "Key Metrics", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Analytics Tools",
+            "subsections": [
+              { "title": "Using Google Analytics", "duration": 5.0 },
+              { "title": "Marketing Data Visualization", "duration": 5.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Marketing Analytics - Live Session",
+            "start": "2024-12-05T14:00:00Z",
+            "end": "2024-12-05T15:00:00Z"
+          },
+          {
+            "title": "Using Analytics Tools - Live Session",
+            "start": "2024-12-15T16:00:00Z",
+            "end": "2024-12-15T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Finance": [
+      {
+        "title": "Financial Modeling",
+        "description": "Learn how to build financial models.",
+        "instructor": "Steve Brown",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 34.99,
+        "popularity": 180,
+        "date": "2021-06-01",
+        "participants": 7342,
+        "objectives": [
+          "Understand financial modeling basics",
+          "Build models using Excel",
+          "Analyze financial statements"
+        ],
+        "prerequisites": [
+          "Basic knowledge of finance",
+          "Experience with Excel"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Financial Modeling",
+            "subsections": [
+              { "title": "What is Financial Modeling?", "duration": 3.0 },
+              { "title": "Setting Up Excel", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Building Models",
+            "subsections": [
+              { "title": "Income Statement Models", "duration": 5.0 },
+              { "title": "Cash Flow Models", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Financial Modeling - Live Session",
+            "start": "2024-06-10T14:00:00Z",
+            "end": "2024-06-10T15:00:00Z"
+          },
+          {
+            "title": "Building Financial Models - Live Session",
+            "start": "2024-06-20T16:00:00Z",
+            "end": "2024-06-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Corporate Finance",
+        "description": "Learn the fundamentals of corporate finance.",
+        "instructor": "Tina Blue",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 220,
+        "date": "2021-09-01",
+        "participants": 9532,
+        "objectives": [
+          "Understand corporate finance principles",
+          "Analyze financial performance",
+          "Make informed financial decisions"
+        ],
+        "prerequisites": [
+          "Basic understanding of finance",
+          "Experience with financial analysis"
+        ],
+        "content": [
+          {
+            "title": "Corporate Finance Basics",
+            "subsections": [
+              { "title": "What is Corporate Finance?", "duration": 3.5 },
+              { "title": "Financial Statement Analysis", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Advanced Corporate Finance",
+            "subsections": [
+              { "title": "Valuation Methods", "duration": 5.0 },
+              { "title": "Capital Budgeting", "duration": 5.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Corporate Finance Basics - Live Session",
+            "start": "2024-09-05T14:00:00Z",
+            "end": "2024-09-05T15:00:00Z"
+          },
+          {
+            "title": "Advanced Corporate Finance - Live Session",
+            "start": "2024-09-15T16:00:00Z",
+            "end": "2024-09-15T17:00:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  "Cloud Computing": {
+    "AWS": [
+      {
+        "title": "AWS Fundamentals",
+        "description": "Learn the basics of Amazon Web Services.",
+        "instructor": "Ursula White",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-04-01",
+        "participants": 8534,
+        "objectives": [
+          "Understand AWS core services",
+          "Learn to deploy applications on AWS",
+          "Manage AWS resources"
+        ],
+        "prerequisites": [
+          "Basic knowledge of cloud computing",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Introduction to AWS",
+            "subsections": [
+              { "title": "What is AWS?", "duration": 3.0 },
+              { "title": "AWS Management Console", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Core Services",
+            "subsections": [
+              { "title": "EC2 and S3", "duration": 5.0 },
+              { "title": "RDS and DynamoDB", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to AWS - Live Session",
+            "start": "2024-04-10T14:00:00Z",
+            "end": "2024-04-10T15:00:00Z"
+          },
+          {
+            "title": "AWS Core Services - Live Session",
+            "start": "2024-04-20T16:00:00Z",
+            "end": "2024-04-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced AWS",
+        "description": "Deep dive into advanced AWS concepts and services.",
+        "instructor": "Victor Brown",
+        "rating": 4.8,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 250,
+        "date": "2021-08-01",
+        "participants": 10234,
+        "objectives": [
+          "Master advanced AWS services",
+          "Implement scalable solutions",
+          "Secure AWS environments"
+        ],
+        "prerequisites": [
+          "Strong understanding of AWS fundamentals",
+          "Experience with cloud computing"
+        ],
+        "content": [
+          {
+            "title": "Advanced Services",
+            "subsections": [
+              { "title": "AWS Lambda", "duration": 5.5 },
+              { "title": "Amazon Redshift", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Security and Compliance",
+            "subsections": [
+              { "title": "IAM Policies", "duration": 4.5 },
+              { "title": "AWS Security Best Practices", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced AWS Services - Live Session",
+            "start": "2024-08-10T14:00:00Z",
+            "end": "2024-08-10T15:00:00Z"
+          },
+          {
+            "title": "AWS Security Best Practices - Live Session",
+            "start": "2024-08-20T16:00:00Z",
+            "end": "2024-08-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "AWS Security",
+        "description": "Learn about securing AWS environments.",
+        "instructor": "Wendy Green",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-12-01",
+        "participants": 9534,
+        "objectives": [
+          "Understand AWS security concepts",
+          "Implement security best practices",
+          "Manage IAM roles and policies"
+        ],
+        "prerequisites": [
+          "Basic knowledge of AWS",
+          "Experience with cloud security"
+        ],
+        "content": [
+          {
+            "title": "Security Basics",
+            "subsections": [
+              { "title": "AWS Shared Responsibility Model", "duration": 3.5 },
+              { "title": "IAM Basics", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Advanced Security",
+            "subsections": [
+              { "title": "Implementing IAM Policies", "duration": 4.5 },
+              { "title": "Monitoring and Logging", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "AWS Security Basics - Live Session",
+            "start": "2024-12-05T14:00:00Z",
+            "end": "2024-12-05T15:00:00Z"
+          },
+          {
+            "title": "Advanced AWS Security - Live Session",
+            "start": "2024-12-15T16:00:00Z",
+            "end": "2024-12-15T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Azure": [
+      {
+        "title": "Azure Basics",
+        "description": "Learn the basics of Microsoft Azure.",
+        "instructor": "Xavier Blue",
+        "rating": 4.5,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "English",
+        "price": 24.99,
+        "popularity": 180,
+        "date": "2021-03-01",
+        "participants": 7345,
+        "objectives": [
+          "Understand Azure core services",
+          "Learn to deploy applications on Azure",
+          "Manage Azure resources"
+        ],
+        "prerequisites": [
+          "Basic knowledge of cloud computing",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Azure",
+            "subsections": [
+              { "title": "What is Azure?", "duration": 3.0 },
+              { "title": "Azure Portal", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Core Services",
+            "subsections": [
+              { "title": "Virtual Machines", "duration": 4.5 },
+              { "title": "Azure Storage", "duration": 4.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Azure - Live Session",
+            "start": "2024-03-10T14:00:00Z",
+            "end": "2024-03-10T15:00:00Z"
+          },
+          {
+            "title": "Azure Core Services - Live Session",
+            "start": "2024-03-20T16:00:00Z",
+            "end": "2024-03-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Azure",
+        "description": "Master advanced Azure services and solutions.",
+        "instructor": "Yolanda White",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-07-01",
+        "participants": 8423,
+        "objectives": [
+          "Understand advanced Azure services",
+          "Implement scalable solutions",
+          "Secure Azure environments"
+        ],
+        "prerequisites": [
+          "Strong understanding of Azure basics",
+          "Experience with cloud computing"
+        ],
+        "content": [
+          {
+            "title": "Advanced Services",
+            "subsections": [
+              { "title": "Azure Functions", "duration": 5.0 },
+              { "title": "Azure Kubernetes Service", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Security and Compliance",
+            "subsections": [
+              { "title": "Azure Security Center", "duration": 4.5 },
+              { "title": "Compliance Management", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced Azure Services - Live Session",
+            "start": "2024-07-10T14:00:00Z",
+            "end": "2024-07-10T15:00:00Z"
+          },
+          {
+            "title": "Azure Security Best Practices - Live Session",
+            "start": "2024-07-20T16:00:00Z",
+            "end": "2024-07-20T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Google Cloud": [
+      {
+        "title": "Google Cloud Fundamentals",
+        "description": "Learn the basics of Google Cloud Platform.",
+        "instructor": "Zach Black",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-05-01",
+        "participants": 8432,
+        "objectives": [
+          "Understand Google Cloud core services",
+          "Learn to deploy applications on GCP",
+          "Manage GCP resources"
+        ],
+        "prerequisites": [
+          "Basic knowledge of cloud computing",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Google Cloud",
+            "subsections": [
+              { "title": "What is GCP?", "duration": 3.0 },
+              { "title": "GCP Console", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Core Services",
+            "subsections": [
+              { "title": "Compute Engine", "duration": 4.5 },
+              { "title": "Cloud Storage", "duration": 4.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to GCP - Live Session",
+            "start": "2024-05-10T14:00:00Z",
+            "end": "2024-05-10T15:00:00Z"
+          },
+          {
+            "title": "GCP Core Services - Live Session",
+            "start": "2024-05-20T16:00:00Z",
+            "end": "2024-05-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Google Cloud Security",
+        "description": "Learn about securing Google Cloud environments.",
+        "instructor": "Alex Blue",
+        "rating": 4.8,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "Spanish",
+        "price": 34.99,
+        "popularity": 240,
+        "date": "2021-09-01",
+        "participants": 9532,
+        "objectives": [
+          "Understand GCP security concepts",
+          "Implement security best practices",
+          "Manage IAM roles and policies"
+        ],
+        "prerequisites": [
+          "Basic knowledge of GCP",
+          "Experience with cloud security"
+        ],
+        "content": [
+          {
+            "title": "Security Basics",
+            "subsections": [
+              { "title": "GCP Shared Responsibility Model", "duration": 3.5 },
+              { "title": "IAM Basics", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Advanced Security",
+            "subsections": [
+              { "title": "Implementing IAM Policies", "duration": 4.5 },
+              { "title": "Monitoring and Logging", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "GCP Security Basics - Live Session",
+            "start": "2024-09-05T14:00:00Z",
+            "end": "2024-09-05T15:00:00Z"
+          },
+          {
+            "title": "Advanced GCP Security - Live Session",
+            "start": "2024-09-15T16:00:00Z",
+            "end": "2024-09-15T17:00:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  "Cybersecurity": {
+    "Network Security": [
+      {
+        "title": "Introduction to Network Security",
+        "description": "Learn the fundamentals of network security.",
+        "instructor": "James Bond",
+        "rating": 4.3,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "English",
+        "price": 24.99,
+        "popularity": 200,
+        "date": "2021-01-15",
+        "participants": 8432,
+        "objectives": [
+          "Understand network security concepts",
+          "Learn to secure network infrastructures",
+          "Implement basic security measures"
+        ],
+        "prerequisites": [
+          "Basic knowledge of networking",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Network Security Basics",
+            "subsections": [
+              { "title": "What is Network Security?", "duration": 3.0 },
+              { "title": "Types of Network Attacks", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Implementing Security Measures",
+            "subsections": [
+              { "title": "Firewalls and VPNs", "duration": 4.5 },
+              { "title": "Intrusion Detection Systems", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Network Security - Live Session",
+            "start": "2024-01-25T14:00:00Z",
+            "end": "2024-01-25T15:00:00Z"
+          },
+          {
+            "title": "Implementing Security Measures - Live Session",
+            "start": "2024-02-05T16:00:00Z",
+            "end": "2024-02-05T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Network Security",
+        "description": "Dive into advanced network security techniques.",
+        "instructor": "Natasha Romanoff",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "Russian",
+        "price": 34.99,
+        "popularity": 300,
+        "date": "2021-07-15",
+        "participants": 9534,
+        "objectives": [
+          "Master advanced security techniques",
+          "Implement robust security measures",
+          "Secure large-scale networks"
+        ],
+        "prerequisites": [
+          "Strong understanding of network security",
+          "Experience with security tools"
+        ],
+        "content": [
+          {
+            "title": "Advanced Security Techniques",
+            "subsections": [
+              { "title": "Advanced Firewalls", "duration": 5.5 },
+              { "title": "Network Segmentation", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Securing Large-Scale Networks",
+            "subsections": [
+              { "title": "Implementing Zero Trust", "duration": 5.0 },
+              { "title": "Security Automation", "duration": 5.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced Security Techniques - Live Session",
+            "start": "2024-07-25T14:00:00Z",
+            "end": "2024-07-25T15:00:00Z"
+          },
+          {
+            "title": "Securing Large-Scale Networks - Live Session",
+            "start": "2024-08-05T16:00:00Z",
+            "end": "2024-08-05T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Network Security Tools",
+        "description": "Learn about various tools used in network security.",
+        "instructor": "Peter Parker",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 230,
+        "date": "2021-06-15",
+        "participants": 8432,
+        "objectives": [
+          "Understand different security tools",
+          "Implement tools in network security",
+          "Monitor and manage network security"
+        ],
+        "prerequisites": [
+          "Basic knowledge of network security",
+          "Experience with networking"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Security Tools",
+            "subsections": [
+              { "title": "Firewalls and IDS/IPS", "duration": 4.0 },
+              { "title": "VPNs and Proxies", "duration": 3.5 }
+            ]
+          },
+          {
+            "title": "Using Security Tools",
+            "subsections": [
+              { "title": "Configuring Firewalls", "duration": 5.0 },
+              { "title": "Monitoring Networks", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Security Tools - Live Session",
+            "start": "2024-06-25T14:00:00Z",
+            "end": "2024-06-25T15:00:00Z"
+          },
+          {
+            "title": "Using Security Tools - Live Session",
+            "start": "2024-07-05T16:00:00Z",
+            "end": "2024-07-05T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Ethical Hacking": [
+      {
+        "title": "Ethical Hacking for Beginners",
+        "description": "Introduction to ethical hacking and penetration testing.",
+        "instructor": "Bruce Wayne",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 250,
+        "date": "2021-02-15",
+        "participants": 8532,
+        "objectives": [
+          "Understand ethical hacking principles",
+          "Learn basic penetration testing techniques",
+          "Use common hacking tools"
+        ],
+        "prerequisites": [
+          "Basic knowledge of networking",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Ethical Hacking",
+            "subsections": [
+              { "title": "What is Ethical Hacking?", "duration": 3.0 },
+              { "title": "Ethical Hacking vs. Malicious Hacking", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Basic Penetration Testing",
+            "subsections": [
+              { "title": "Reconnaissance", "duration": 4.5 },
+              { "title": "Scanning and Enumeration", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Ethical Hacking - Live Session",
+            "start": "2024-02-25T14:00:00Z",
+            "end": "2024-02-25T15:00:00Z"
+          },
+          {
+            "title": "Basic Penetration Testing - Live Session",
+            "start": "2024-03-05T16:00:00Z",
+            "end": "2024-03-05T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Penetration Testing",
+        "description": "Master advanced penetration testing techniques.",
+        "instructor": "Clark Kent",
+        "rating": 4.8,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "English",
+        "price": 39.99,
+        "popularity": 350,
+        "date": "2021-08-15",
+        "participants": 10534,
+        "objectives": [
+          "Perform advanced penetration tests",
+          "Use advanced hacking tools",
+          "Create detailed penetration test reports"
+        ],
+        "prerequisites": [
+          "Strong understanding of penetration testing",
+          "Experience with security tools"
+        ],
+        "content": [
+          {
+            "title": "Advanced Techniques",
+            "subsections": [
+              { "title": "Exploitation", "duration": 5.5 },
+              { "title": "Post-Exploitation", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Reporting and Documentation",
+            "subsections": [
+              { "title": "Creating Test Reports", "duration": 5.0 },
+              { "title": "Communicating Results", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced Techniques - Live Session",
+            "start": "2024-08-25T14:00:00Z",
+            "end": "2024-08-25T15:00:00Z"
+          },
+          {
+            "title": "Reporting and Documentation - Live Session",
+            "start": "2024-09-05T16:00:00Z",
+            "end": "2024-09-05T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Certified Ethical Hacker Preparation",
+        "description": "Prepare for the Certified Ethical Hacker (CEH) exam.",
+        "instructor": "Diana Prince",
+        "rating": 4.6,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 300,
+        "date": "2021-09-01",
+        "participants": 9432,
+        "objectives": [
+          "Understand CEH exam objectives",
+          "Learn key ethical hacking concepts",
+          "Practice with CEH exam questions"
+        ],
+        "prerequisites": [
+          "Basic understanding of ethical hacking",
+          "Experience with security tools"
+        ],
+        "content": [
+          {
+            "title": "Exam Preparation",
+            "subsections": [
+              { "title": "CEH Exam Overview", "duration": 3.5 },
+              { "title": "Exam Objectives", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Practice Questions",
+            "subsections": [
+              { "title": "Sample Exam Questions", "duration": 5.0 },
+              { "title": "Review and Analysis", "duration": 5.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "CEH Exam Overview - Live Session",
+            "start": "2024-09-10T14:00:00Z",
+            "end": "2024-09-10T15:00:00Z"
+          },
+          {
+            "title": "Practice Questions Review - Live Session",
+            "start": "2024-09-20T16:00:00Z",
+            "end": "2024-09-20T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Cybersecurity Management": [
+      {
+        "title": "Cybersecurity Risk Management",
+        "description": "Learn to manage cybersecurity risks.",
+        "instructor": "Tony Stark",
+        "rating": 4.6,
+        "duration": 9,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 220,
+        "date": "2021-03-15",
+        "participants": 8432,
+        "objectives": [
+          "Understand risk management principles",
+          "Identify and assess cybersecurity risks",
+          "Develop risk mitigation strategies"
+        ],
+        "prerequisites": [
+          "Basic knowledge of cybersecurity",
+          "Experience with risk management"
+        ],
+        "content": [
+          {
+            "title": "Risk Management Basics",
+            "subsections": [
+              { "title": "What is Risk Management?", "duration": 3.5 },
+              { "title": "Risk Assessment Process", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Mitigation Strategies",
+            "subsections": [
+              { "title": "Developing Mitigation Plans", "duration": 4.5 },
+              { "title": "Monitoring and Review", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Risk Management Basics - Live Session",
+            "start": "2024-03-25T14:00:00Z",
+            "end": "2024-03-25T15:00:00Z"
+          },
+          {
+            "title": "Mitigation Strategies - Live Session",
+            "start": "2024-04-05T16:00:00Z",
+            "end": "2024-04-05T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Incident Response Planning",
+        "description": "Learn how to plan and respond to cybersecurity incidents.",
+        "instructor": "Diana Prince",
+        "rating": 4.7,
+        "duration": 11,
+        "level": "Advanced",
+        "language": "English",
+        "price": 34.99,
+        "popularity": 280,
+        "date": "2021-09-15",
+        "participants": 9534,
+        "objectives": [
+          "Understand incident response principles",
+          "Develop incident response plans",
+          "Conduct effective incident investigations"
+        ],
+        "prerequisites": [
+          "Basic knowledge of cybersecurity",
+          "Experience with incident response"
+        ],
+        "content": [
+          {
+            "title": "Incident Response Basics",
+            "subsections": [
+              { "title": "What is Incident Response?", "duration": 3.5 },
+              { "title": "Incident Response Process", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Developing Response Plans",
+            "subsections": [
+              { "title": "Creating Response Plans", "duration": 4.5 },
+              { "title": "Conducting Investigations", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Incident Response Basics - Live Session",
+            "start": "2024-09-25T14:00:00Z",
+            "end": "2024-09-25T15:00:00Z"
+          },
+          {
+            "title": "Developing Response Plans - Live Session",
+            "start": "2024-10-05T16:00:00Z",
+            "end": "2024-10-05T17:00:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  "Software Development": {
+    "DevOps": [
+      {
+        "title": "DevOps Fundamentals",
+        "description": "Learn the basics of DevOps practices.",
+        "instructor": "Edward Blue",
+        "rating": 4.4,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-02-01",
+        "participants": 7345,
+        "objectives": [
+          "Understand DevOps principles",
+          "Learn to use DevOps tools",
+          "Implement CI/CD pipelines"
+        ],
+        "prerequisites": [
+          "Basic knowledge of software development",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Introduction to DevOps",
+            "subsections": [
+              { "title": "What is DevOps?", "duration": 3.0 },
+              { "title": "DevOps Culture", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "DevOps Tools",
+            "subsections": [
+              { "title": "Using Jenkins", "duration": 5.0 },
+              { "title": "Docker Basics", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to DevOps - Live Session",
+            "start": "2024-02-10T14:00:00Z",
+            "end": "2024-02-10T15:00:00Z"
+          },
+          {
+            "title": "Using Jenkins - Live Session",
+            "start": "2024-02-20T16:00:00Z",
+            "end": "2024-02-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced DevOps",
+        "description": "Master advanced DevOps techniques.",
+        "instructor": "Frank Green",
+        "rating": 4.7,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 240,
+        "date": "2021-07-01",
+        "participants": 8423,
+        "objectives": [
+          "Implement advanced CI/CD pipelines",
+          "Use Kubernetes for container orchestration",
+          "Optimize DevOps workflows"
+        ],
+        "prerequisites": [
+          "Strong understanding of DevOps fundamentals",
+          "Experience with DevOps tools"
+        ],
+        "content": [
+          {
+            "title": "Advanced CI/CD",
+            "subsections": [
+              { "title": "Pipeline Automation", "duration": 5.5 },
+              { "title": "Continuous Testing", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Container Orchestration",
+            "subsections": [
+              { "title": "Using Kubernetes", "duration": 5.0 },
+              { "title": "Managing Containers", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced CI/CD - Live Session",
+            "start": "2024-07-10T14:00:00Z",
+            "end": "2024-07-10T15:00:00Z"
+          },
+          {
+            "title": "Using Kubernetes - Live Session",
+            "start": "2024-07-20T16:00:00Z",
+            "end": "2024-07-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "CI/CD Pipelines",
+        "description": "Learn to create and manage CI/CD pipelines.",
+        "instructor": "Grace Brown",
+        "rating": 4.6,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-05-01",
+        "participants": 9534,
+        "objectives": [
+          "Understand CI/CD principles",
+          "Implement pipelines using Jenkins",
+          "Automate testing and deployment"
+        ],
+        "prerequisites": [
+          "Basic knowledge of DevOps",
+          "Experience with software development"
+        ],
+        "content": [
+          {
+            "title": "Introduction to CI/CD",
+            "subsections": [
+              { "title": "What is CI/CD?", "duration": 3.5 },
+              { "title": "Benefits of CI/CD", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Creating Pipelines",
+            "subsections": [
+              { "title": "Using Jenkins for CI/CD", "duration": 4.5 },
+              { "title": "Automating Testing", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to CI/CD - Live Session",
+            "start": "2024-05-10T14:00:00Z",
+            "end": "2024-05-10T15:00:00Z"
+          },
+          {
+            "title": "Creating Pipelines - Live Session",
+            "start": "2024-05-20T16:00:00Z",
+            "end": "2024-05-20T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Software Testing": [
+      {
+        "title": "Introduction to Software Testing",
+        "description": "Learn the basics of software testing.",
+        "instructor": "Hank White",
+        "rating": 4.3,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "English",
+        "price": 24.99,
+        "popularity": 180,
+        "date": "2021-01-15",
+        "participants": 7342,
+        "objectives": [
+          "Understand software testing principles",
+          "Learn different testing methods",
+          "Implement basic testing procedures"
+        ],
+        "prerequisites": [
+          "Basic knowledge of software development",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Software Testing Basics",
+            "subsections": [
+              { "title": "What is Software Testing?", "duration": 3.0 },
+              { "title": "Types of Testing", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Testing Methods",
+            "subsections": [
+              { "title": "Manual Testing", "duration": 4.5 },
+              { "title": "Automated Testing", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Software Testing - Live Session",
+            "start": "2024-01-25T14:00:00Z",
+            "end": "2024-01-25T15:00:00Z"
+          },
+          {
+            "title": "Testing Methods - Live Session",
+            "start": "2024-02-05T16:00:00Z",
+            "end": "2024-02-05T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Automated Testing",
+        "description": "Learn to automate software testing.",
+        "instructor": "Ivy Green",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-06-01",
+        "participants": 8423,
+        "objectives": [
+          "Understand automated testing principles",
+          "Use testing tools like Selenium",
+          "Automate test cases"
+        ],
+        "prerequisites": [
+          "Basic understanding of software testing",
+          "Experience with programming"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Automated Testing",
+            "subsections": [
+              { "title": "What is Automated Testing?", "duration": 3.5 },
+              { "title": "Benefits of Automation", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Automating Test Cases",
+            "subsections": [
+              { "title": "Using Selenium", "duration": 5.0 },
+              { "title": "Creating Automated Test Scripts", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Automated Testing - Live Session",
+            "start": "2024-06-10T14:00:00Z",
+            "end": "2024-06-10T15:00:00Z"
+          },
+          {
+            "title": "Automating Test Cases - Live Session",
+            "start": "2024-06-20T16:00:00Z",
+            "end": "2024-06-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Performance Testing",
+        "description": "Learn to conduct performance testing of software.",
+        "instructor": "Jack Brown",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Advanced",
+        "language": "German",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-08-01",
+        "participants": 9342,
+        "objectives": [
+          "Understand performance testing principles",
+          "Use tools like JMeter",
+          "Conduct performance tests"
+        ],
+        "prerequisites": [
+          "Basic knowledge of software testing",
+          "Experience with programming"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Performance Testing",
+            "subsections": [
+              { "title": "What is Performance Testing?", "duration": 3.5 },
+              { "title": "Types of Performance Tests", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Using Performance Testing Tools",
+            "subsections": [
+              { "title": "Using JMeter", "duration": 4.5 },
+              { "title": "Creating Performance Test Scripts", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Performance Testing - Live Session",
+            "start": "2024-08-10T14:00:00Z",
+            "end": "2024-08-10T15:00:00Z"
+          },
+          {
+            "title": "Using Performance Testing Tools - Live Session",
+            "start": "2024-08-20T16:00:00Z",
+            "end": "2024-08-20T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Agile Methodologies": [
+      {
+        "title": "Agile Basics",
+        "description": "Learn the basics of Agile methodologies.",
+        "instructor": "Karen White",
+        "rating": 4.5,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "English",
+        "price": 24.99,
+        "popularity": 170,
+        "date": "2021-03-01",
+        "participants": 7342,
+        "objectives": [
+          "Understand Agile principles",
+          "Learn Scrum and Kanban",
+          "Implement Agile practices"
+        ],
+        "prerequisites": [
+          "Basic knowledge of project management",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Agile",
+            "subsections": [
+              { "title": "What is Agile?", "duration": 3.0 },
+              { "title": "Agile Values and Principles", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Agile Frameworks",
+            "subsections": [
+              { "title": "Scrum Basics", "duration": 4.5 },
+              { "title": "Kanban Basics", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Agile - Live Session",
+            "start": "2024-03-10T14:00:00Z",
+            "end": "2024-03-10T15:00:00Z"
+          },
+          {
+            "title": "Agile Frameworks - Live Session",
+            "start": "2024-03-20T16:00:00Z",
+            "end": "2024-03-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Agile",
+        "description": "Deep dive into advanced Agile techniques.",
+        "instructor": "Leo Green",
+        "rating": 4.7,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 29.99,
+        "popularity": 210,
+        "date": "2021-06-01",
+        "participants": 8423,
+        "objectives": [
+          "Master advanced Agile practices",
+          "Implement Agile at scale",
+          "Improve Agile team performance"
+        ],
+        "prerequisites": [
+          "Basic understanding of Agile",
+          "Experience with project management"
+        ],
+        "content": [
+          {
+            "title": "Advanced Practices",
+            "subsections": [
+              { "title": "Agile at Scale", "duration": 5.0 },
+              { "title": "Lean and Agile", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Team Performance",
+            "subsections": [
+              { "title": "Improving Team Performance", "duration": 4.5 },
+              { "title": "Agile Metrics", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced Practices - Live Session",
+            "start": "2024-06-10T14:00:00Z",
+            "end": "2024-06-10T15:00:00Z"
+          },
+          {
+            "title": "Team Performance - Live Session",
+            "start": "2024-06-20T16:00:00Z",
+            "end": "2024-06-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Scrum Master Certification",
+        "description": "Prepare for Scrum Master certification.",
+        "instructor": "Mia Blue",
+        "rating": 4.8,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 240,
+        "date": "2021-09-01",
+        "participants": 9534,
+        "objectives": [
+          "Understand Scrum Master roles and responsibilities",
+          "Learn to facilitate Scrum events",
+          "Prepare for Scrum Master certification exams"
+        ],
+        "prerequisites": [
+          "Basic understanding of Agile and Scrum",
+          "Experience with project management"
+        ],
+        "content": [
+          {
+            "title": "Scrum Master Role",
+            "subsections": [
+              { "title": "Roles and Responsibilities", "duration": 3.5 },
+              { "title": "Facilitating Scrum Events", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Certification Preparation",
+            "subsections": [
+              { "title": "Exam Objectives", "duration": 5.0 },
+              { "title": "Practice Questions", "duration": 5.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Scrum Master Role - Live Session",
+            "start": "2024-09-10T14:00:00Z",
+            "end": "2024-09-10T15:00:00Z"
+          },
+          {
+            "title": "Certification Preparation - Live Session",
+            "start": "2024-09-20T16:00:00Z",
+            "end": "2024-09-20T17:00:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  "Artificial Intelligence": {
+    "AI Fundamentals": [
+      {
+        "title": "Introduction to AI",
+        "description": "Learn the basics of artificial intelligence.",
+        "instructor": "Nina White",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-04-01",
+        "participants": 8534,
+        "objectives": [
+          "Understand AI principles",
+          "Learn about AI applications",
+          "Implement basic AI algorithms"
+        ],
+        "prerequisites": [
+          "Basic programming knowledge",
+          "A computer with internet access"
+        ],
+        "content": [
+          {
+            "title": "Introduction to AI",
+            "subsections": [
+              { "title": "What is AI?", "duration": 3.0 },
+              { "title": "AI Applications", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Basic Algorithms",
+            "subsections": [
+              { "title": "Search Algorithms", "duration": 5.0 },
+              { "title": "Knowledge Representation", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to AI - Live Session",
+            "start": "2024-04-10T14:00:00Z",
+            "end": "2024-04-10T15:00:00Z"
+          },
+          {
+            "title": "Basic Algorithms - Live Session",
+            "start": "2024-04-20T16:00:00Z",
+            "end": "2024-04-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "AI in Business",
+        "description": "Learn how AI is applied in business.",
+        "instructor": "Oliver Green",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-08-01",
+        "participants": 9423,
+        "objectives": [
+          "Understand AI business applications",
+          "Learn to implement AI in business processes",
+          "Analyze the impact of AI on business"
+        ],
+        "prerequisites": [
+          "Basic knowledge of AI",
+          "Experience with business processes"
+        ],
+        "content": [
+          {
+            "title": "AI Applications",
+            "subsections": [
+              { "title": "AI in Marketing", "duration": 5.0 },
+              { "title": "AI in Operations", "duration": 4.5 }
+            ]
+          },
+          {
+            "title": "Implementing AI",
+            "subsections": [
+              { "title": "AI Tools and Frameworks", "duration": 4.5 },
+              { "title": "Integrating AI with Business", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "AI Applications - Live Session",
+            "start": "2024-08-10T14:00:00Z",
+            "end": "2024-08-10T15:00:00Z"
+          },
+          {
+            "title": "Implementing AI - Live Session",
+            "start": "2024-08-20T16:00:00Z",
+            "end": "2024-08-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "AI Ethics",
+        "description": "Learn about the ethical implications of AI.",
+        "instructor": "Paul Brown",
+        "rating": 4.8,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "Spanish",
+        "price": 39.99,
+        "popularity": 250,
+        "date": "2021-12-01",
+        "participants": 10345,
+        "objectives": [
+          "Understand ethical considerations in AI",
+          "Analyze the impact of AI on society",
+          "Develop ethical AI solutions"
+        ],
+        "prerequisites": [
+          "Basic knowledge of AI",
+          "Experience with AI development"
+        ],
+        "content": [
+          {
+            "title": "Introduction to AI Ethics",
+            "subsections": [
+              { "title": "What is AI Ethics?", "duration": 4.0 },
+              { "title": "Ethical Frameworks", "duration": 5.0 }
+            ]
+          },
+          {
+            "title": "Ethical AI Solutions",
+            "subsections": [
+              { "title": "Designing Ethical AI", "duration": 6.0 },
+              { "title": "Case Studies", "duration": 5.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to AI Ethics - Live Session",
+            "start": "2024-12-10T14:00:00Z",
+            "end": "2024-12-10T15:00:00Z"
+          },
+          {
+            "title": "Ethical AI Solutions - Live Session",
+            "start": "2024-12-20T16:00:00Z",
+            "end": "2024-12-20T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "NLP": [
+      {
+        "title": "Natural Language Processing Basics",
+        "description": "Learn the basics of natural language processing.",
+        "instructor": "Quincy White",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-05-01",
+        "participants": 9532,
+        "objectives": [
+          "Understand NLP principles",
+          "Learn to preprocess text data",
+          "Implement basic NLP algorithms"
+        ],
+        "prerequisites": [
+          "Basic programming knowledge",
+          "Experience with Python"
+        ],
+        "content": [
+          {
+            "title": "Introduction to NLP",
+            "subsections": [
+              { "title": "What is NLP?", "duration": 3.0 },
+              { "title": "Applications of NLP", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Basic NLP Algorithms",
+            "subsections": [
+              { "title": "Text Preprocessing", "duration": 5.0 },
+              { "title": "Sentiment Analysis", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to NLP - Live Session",
+            "start": "2024-05-10T14:00:00Z",
+            "end": "2024-05-10T15:00:00Z"
+          },
+          {
+            "title": "Basic NLP Algorithms - Live Session",
+            "start": "2024-05-20T16:00:00Z",
+            "end": "2024-05-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced NLP",
+        "description": "Master advanced techniques in natural language processing.",
+        "instructor": "Rachel Black",
+        "rating": 4.8,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 240,
+        "date": "2021-09-01",
+        "participants": 10432,
+        "objectives": [
+          "Implement advanced NLP algorithms",
+          "Work with large text corpora",
+          "Develop NLP applications"
+        ],
+        "prerequisites": [
+          "Basic understanding of NLP",
+          "Experience with Python"
+        ],
+        "content": [
+          {
+            "title": "Advanced Algorithms",
+            "subsections": [
+              { "title": "Named Entity Recognition", "duration": 6.0 },
+              { "title": "Topic Modeling", "duration": 5.5 }
+            ]
+          },
+          {
+            "title": "NLP Applications",
+            "subsections": [
+              { "title": "Text Summarization", "duration": 5.0 },
+              { "title": "Machine Translation", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced Algorithms - Live Session",
+            "start": "2024-09-10T14:00:00Z",
+            "end": "2024-09-10T15:00:00Z"
+          },
+          {
+            "title": "NLP Applications - Live Session",
+            "start": "2024-09-20T16:00:00Z",
+            "end": "2024-09-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "NLP with Python",
+        "description": "Learn to apply NLP techniques using Python.",
+        "instructor": "Sarah Blue",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-07-01",
+        "participants": 9423,
+        "objectives": [
+          "Understand NLP libraries in Python",
+          "Implement NLP projects",
+          "Analyze text data"
+        ],
+        "prerequisites": [
+          "Basic understanding of Python",
+          "Experience with NLP concepts"
+        ],
+        "content": [
+          {
+            "title": "Introduction to NLP Libraries",
+            "subsections": [
+              { "title": "Using NLTK", "duration": 3.5 },
+              { "title": "Using SpaCy", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Implementing NLP Projects",
+            "subsections": [
+              { "title": "Text Classification", "duration": 5.0 },
+              { "title": "Information Extraction", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to NLP Libraries - Live Session",
+            "start": "2024-07-10T14:00:00Z",
+            "end": "2024-07-10T15:00:00Z"
+          },
+          {
+            "title": "Implementing NLP Projects - Live Session",
+            "start": "2024-07-20T16:00:00Z",
+            "end": "2024-07-20T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Computer Vision": [
+      {
+        "title": "Computer Vision Basics",
+        "description": "Learn the basics of computer vision.",
+        "instructor": "Thomas Green",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-04-01",
+        "participants": 8534,
+        "objectives": [
+          "Understand computer vision principles",
+          "Learn image processing techniques",
+          "Implement basic computer vision algorithms"
+        ],
+        "prerequisites": [
+          "Basic programming knowledge",
+          "Experience with Python"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Computer Vision",
+            "subsections": [
+              { "title": "What is Computer Vision?", "duration": 3.0 },
+              { "title": "Applications of Computer Vision", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Basic Algorithms",
+            "subsections": [
+              { "title": "Image Processing", "duration": 5.0 },
+              { "title": "Feature Detection", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Computer Vision - Live Session",
+            "start": "2024-04-10T14:00:00Z",
+            "end": "2024-04-10T15:00:00Z"
+          },
+          {
+            "title": "Basic Algorithms - Live Session",
+            "start": "2024-04-20T16:00:00Z",
+            "end": "2024-04-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Computer Vision",
+        "description": "Deep dive into advanced computer vision techniques.",
+        "instructor": "Uma Black",
+        "rating": 4.7,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 220,
+        "date": "2021-08-01",
+        "participants": 9532,
+        "objectives": [
+          "Implement advanced computer vision algorithms",
+          "Work with deep learning models",
+          "Develop computer vision applications"
+        ],
+        "prerequisites": [
+          "Basic understanding of computer vision",
+          "Experience with Python"
+        ],
+        "content": [
+          {
+            "title": "Advanced Algorithms",
+            "subsections": [
+              { "title": "Object Detection", "duration": 6.0 },
+              { "title": "Image Segmentation", "duration": 5.5 }
+            ]
+          },
+          {
+            "title": "Deep Learning in Computer Vision",
+            "subsections": [
+              { "title": "Using CNNs", "duration": 5.0 },
+              { "title": "Transfer Learning", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced Algorithms - Live Session",
+            "start": "2024-08-10T14:00:00Z",
+            "end": "2024-08-10T15:00:00Z"
+          },
+          {
+            "title": "Deep Learning in Computer Vision - Live Session",
+            "start": "2024-08-20T16:00:00Z",
+            "end": "2024-08-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Computer Vision with Python",
+        "description": "Learn to apply computer vision techniques using Python.",
+        "instructor": "Victor White",
+        "rating": 4.6,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "Spanish",
+        "price": 34.99,
+        "popularity": 200,
+        "date": "2021-06-01",
+        "participants": 9423,
+        "objectives": [
+          "Understand computer vision libraries in Python",
+          "Implement computer vision projects",
+          "Analyze image data"
+        ],
+        "prerequisites": [
+          "Basic understanding of Python",
+          "Experience with computer vision"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Computer Vision Libraries",
+            "subsections": [
+              { "title": "Using OpenCV", "duration": 3.5 },
+              { "title": "Using Scikit-Image", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Implementing Computer Vision Projects",
+            "subsections": [
+              { "title": "Image Classification", "duration": 5.0 },
+              { "title": "Object Detection", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Computer Vision Libraries - Live Session",
+            "start": "2024-06-10T14:00:00Z",
+            "end": "2024-06-10T15:00:00Z"
+          },
+          {
+            "title": "Implementing Computer Vision Projects - Live Session",
+            "start": "2024-06-20T16:00:00Z",
+            "end": "2024-06-20T17:00:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  "Project Management": {
+    "PMP": [
+      {
+        "title": "PMP Certification Preparation",
+        "description": "Prepare for the PMP certification exam.",
+        "instructor": "Wendy White",
+        "rating": 4.7,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "English",
+        "price": 49.99,
+        "popularity": 300,
+        "date": "2021-04-01",
+        "participants": 10432,
+        "objectives": [
+          "Understand PMP exam objectives",
+          "Learn key project management concepts",
+          "Practice with PMP exam questions"
+        ],
+        "prerequisites": [
+          "Basic understanding of project management",
+          "Experience with managing projects"
+        ],
+        "content": [
+          {
+            "title": "Exam Preparation",
+            "subsections": [
+              { "title": "PMP Exam Overview", "duration": 3.5 },
+              { "title": "Exam Objectives", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Practice Questions",
+            "subsections": [
+              { "title": "Sample Exam Questions", "duration": 5.0 },
+              { "title": "Review and Analysis", "duration": 5.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "PMP Exam Overview - Live Session",
+            "start": "2024-04-10T14:00:00Z",
+            "end": "2024-04-10T15:00:00Z"
+          },
+          {
+            "title": "Practice Questions Review - Live Session",
+            "start": "2024-04-20T16:00:00Z",
+            "end": "2024-04-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced PMP Techniques",
+        "description": "Learn advanced techniques for PMP certification.",
+        "instructor": "Xander Black",
+        "rating": 4.8,
+        "duration": 18,
+        "level": "Advanced",
+        "language": "English",
+        "price": 59.99,
+        "popularity": 320,
+        "date": "2021-08-01",
+        "participants": 12432,
+        "objectives": [
+          "Master advanced project management techniques",
+          "Understand PMP exam strategies",
+          "Prepare for complex PMP exam questions"
+        ],
+        "prerequisites": [
+          "Strong understanding of project management",
+          "Experience with PMP certification"
+        ],
+        "content": [
+          {
+            "title": "Advanced Techniques",
+            "subsections": [
+              { "title": "Project Scheduling", "duration": 6.0 },
+              { "title": "Risk Management", "duration": 5.5 }
+            ]
+          },
+          {
+            "title": "Exam Strategies",
+            "subsections": [
+              { "title": "Time Management", "duration": 4.5 },
+              { "title": "Answering Complex Questions", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced Techniques - Live Session",
+            "start": "2024-08-10T14:00:00Z",
+            "end": "2024-08-10T15:00:00Z"
+          },
+          {
+            "title": "Exam Strategies - Live Session",
+            "start": "2024-08-20T16:00:00Z",
+            "end": "2024-08-20T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "Agile": [
+      {
+        "title": "Agile Project Management",
+        "description": "Learn to manage projects using Agile methodologies.",
+        "instructor": "Yara Green",
+        "rating": 4.6,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-06-01",
+        "participants": 9342,
+        "objectives": [
+          "Understand Agile project management principles",
+          "Implement Agile practices in projects",
+          "Manage Agile teams effectively"
+        ],
+        "prerequisites": [
+          "Basic knowledge of Agile",
+          "Experience with project management"
+        ],
+        "content": [
+          {
+            "title": "Introduction to Agile PM",
+            "subsections": [
+              { "title": "What is Agile PM?", "duration": 3.5 },
+              { "title": "Agile PM Frameworks", "duration": 4.0 }
+            ]
+          },
+          {
+            "title": "Managing Agile Projects",
+            "subsections": [
+              { "title": "Planning and Execution", "duration": 5.0 },
+              { "title": "Managing Agile Teams", "duration": 4.5 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Introduction to Agile PM - Live Session",
+            "start": "2024-06-10T14:00:00Z",
+            "end": "2024-06-10T15:00:00Z"
+          },
+          {
+            "title": "Managing Agile Projects - Live Session",
+            "start": "2024-06-20T16:00:00Z",
+            "end": "2024-06-20T17:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Agile PM",
+        "description": "Master advanced techniques in Agile project management.",
+        "instructor": "Zoe Black",
+        "rating": 4.8,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "English",
+        "price": 39.99,
+        "popularity": 240,
+        "date": "2021-09-01",
+        "participants": 9532,
+        "objectives": [
+          "Implement advanced Agile PM practices",
+          "Use Agile tools effectively",
+          "Optimize Agile project workflows"
+        ],
+        "prerequisites": [
+          "Strong understanding of Agile PM",
+          "Experience with managing Agile projects"
+        ],
+        "content": [
+          {
+            "title": "Advanced Practices",
+            "subsections": [
+              { "title": "Scaling Agile", "duration": 6.0 },
+              { "title": "Lean and Agile", "duration": 5.5 }
+            ]
+          },
+          {
+            "title": "Agile Tools",
+            "subsections": [
+              { "title": "Using JIRA", "duration": 4.5 },
+              { "title": "Agile Metrics and Reporting", "duration": 5.0 }
+            ]
+          }
+        ],
+        "liveSessions": [
+          {
+            "title": "Advanced Practices - Live Session",
+            "start": "2024-09-10T14:00:00Z",
+            "end": "2024-09-10T15:00:00Z"
+          },
+          {
+            "title": "Agile Tools - Live Session",
+            "start": "2024-09-20T16:00:00Z",
+            "end": "2024-09-20T17:00:00Z"
+          }
+        ]
+      }
+    ]
+  }
+}
