@@ -1,11 +1,13 @@
+
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 import { Grid, MenuItem, Select, FormControl, InputLabel, Slider, Box, Typography } from '@mui/material';
 import coursesData from './courses.json';
 import CourseCard from './CourseCard';
 
 const CoursePage = () => {
     const { theme, subject } = useParams();
+    const location = useLocation();
     const [courses, setCourses] = useState([]);
     const [filteredCourses, setFilteredCourses] = useState([]);
     const [ratingFilter, setRatingFilter] = useState([1, 5]);
@@ -15,12 +17,30 @@ const CoursePage = () => {
     const [priceFilter, setPriceFilter] = useState([0, 50]);
     const [sortOption, setSortOption] = useState('');
 
+    const searchQuery = new URLSearchParams(location.search).get('query');
+
     useEffect(() => {
-        if (coursesData[theme] && coursesData[theme][subject]) {
-            setCourses(coursesData[theme][subject]);
-            setFilteredCourses(coursesData[theme][subject]);
+        if (theme && subject) {
+            const decodedTheme = decodeURIComponent(theme);
+            const decodedSubject = decodeURIComponent(subject);
+            const coursesForThemeAndSubject = coursesData[decodedTheme]?.[decodedSubject]?.map(course => ({ ...course, theme: decodedTheme, subject: decodedSubject })) || [];
+            setCourses(coursesForThemeAndSubject);
+            setFilteredCourses(coursesForThemeAndSubject);
+        } else if (searchQuery) {
+            const decodedSearchQuery = decodeURIComponent(searchQuery);
+            const allCourses = Object.values(coursesData).flatMap(theme =>
+                Object.entries(theme).flatMap(([subject, courses]) =>
+                    courses.map(course => ({ ...course, theme, subject }))
+                )
+            );
+            const filtered = allCourses.filter(course =>
+                course.title.toLowerCase().includes(decodedSearchQuery.toLowerCase()) ||
+                course.description.toLowerCase().includes(decodedSearchQuery.toLowerCase())
+            );
+            setCourses(filtered);
+            setFilteredCourses(filtered);
         }
-    }, [theme, subject]);
+    }, [theme, subject, searchQuery]);
 
     useEffect(() => {
         let filtered = courses;
@@ -59,7 +79,7 @@ const CoursePage = () => {
 
     return (
         <div>
-            <h1>{subject} Courses</h1>
+            <h1>{subject ? subject : "Search Results"} Courses</h1>
             <div style={{ marginBottom: '20px' }}>
                 <Box sx={{ display: 'flex', gap: 2 }}>
                     <FormControl variant="outlined" style={{ minWidth: 150 }}>
@@ -158,7 +178,7 @@ const CoursePage = () => {
             <Grid container spacing={2}>
                 {filteredCourses.map((course, index) => (
                     <Grid item key={index} xs={12} sm={6} md={4}>
-                        <CourseCard course={course} theme={theme} subject={subject} />
+                        <CourseCard course={course} theme={course.theme} subject={course.subject} />
                     </Grid>
                 ))}
             </Grid>

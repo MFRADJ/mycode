@@ -1,19 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import {
-    AppBar, Toolbar, Typography, Button, TextField, Box, IconButton, Menu, MenuItem, Drawer, List, ListItem, ListItemText, Collapse
+    AppBar, Toolbar, Typography, Button, Box, IconButton, Menu, MenuItem, Drawer, List, ListItem, ListItemText, Collapse
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import MessageIcon from '@mui/icons-material/Message';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import ButtonBase from '@mui/material/ButtonBase';
+import SearchBar from './SearchBar'; // Assurez-vous que le chemin est correct
 import './Navbar.module.css'; // Ajoutez des styles spécifiques si nécessaire
 import categoriesData from './catogries.json'; // Assurez-vous que le chemin est correct
 
 function DashboardNavbar() {
     const [anchorEl, setAnchorEl] = useState(null);
+    const [profileAnchorEl, setProfileAnchorEl] = useState(null);
     const [subAnchorEl, setSubAnchorEl] = useState(null);
     const [currentCategory, setCurrentCategory] = useState('');
     const [categories, setCategories] = useState({});
@@ -36,13 +40,21 @@ function DashboardNavbar() {
         setCurrentCategory('');
     };
 
+    const handleProfileMenuClick = (event) => {
+        setProfileAnchorEl(event.currentTarget);
+    };
+
+    const handleProfileMenuClose = () => {
+        setProfileAnchorEl(null);
+    };
+
     const handleSubMenuClick = (event, category) => {
         setSubAnchorEl(event.currentTarget);
         setCurrentCategory(category);
     };
 
     const handleCourseClick = (theme, subject) => {
-        navigate(`/courses/${theme}/${subject}`);
+        navigate(`/courses/${encodeURIComponent(theme)}/${encodeURIComponent(subject)}`);
         handleClose();
         setDrawerOpen(false);
     };
@@ -93,19 +105,7 @@ function DashboardNavbar() {
                     >
                         <List>
                             <ListItem>
-                                <TextField
-                                    variant="outlined"
-                                    placeholder="Search courses..."
-                                    size="small"
-                                    sx={{ width: '100%' }}
-                                    InputProps={{
-                                        endAdornment: (
-                                            <IconButton>
-                                                <SearchIcon />
-                                            </IconButton>
-                                        ),
-                                    }}
-                                />
+                                <SearchBar onClose={toggleDrawer(false)} />
                             </ListItem>
                             <ListItem>
                                 <ButtonBase onClick={() => handleCategoryClick('categories')}>
@@ -151,55 +151,86 @@ function DashboardNavbar() {
                         </List>
                     </Box>
                 </Drawer>
-                <Link to="/" className="navbar-brand" style={{ display: 'flex', alignItems: 'center' }}>
+                <Link to="/" className="navbar-brand" style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
                     <img src="/logo192.png" alt="Acme Courses" style={{ height: '40px', marginRight: '10px' }} />
+                    <Typography variant="h6" component="div">MyCode</Typography>
                 </Link>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1, display: { xs: 'none', md: 'block' } }}>
-                    Acme Courses
-                </Typography>
-                <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-                    <Button aria-controls="categories-menu" aria-haspopup="true" onClick={handleClick} color="inherit">
-                        Catégories
-                    </Button>
-                    <Menu
-                        id="categories-menu"
-                        anchorEl={anchorEl}
-                        anchorOrigin={{
-                            vertical: 'bottom',
-                            horizontal: 'left',
-                        }}
-                        keepMounted
-                        transformOrigin={{
-                            vertical: 'top',
-                            horizontal: 'left',
-                        }}
-                        open={Boolean(anchorEl)}
-                        onClose={handleClose}
-                    >
-                        {Object.keys(categories).map((category) => (
-                            <MenuItem key={category} onClick={(event) => handleSubMenuClick(event, category)}>
-                                {category}
-                            </MenuItem>
-                        ))}
-                    </Menu>
-                    <TextField
-                        variant="outlined"
-                        placeholder="Search courses..."
-                        size="small"
-                        sx={{ bgcolor: 'background.paper', borderRadius: 1, ml: 2 }}
-                        InputProps={{
-                            endAdornment: (
-                                <IconButton>
-                                    <SearchIcon />
-                                </IconButton>
-                            ),
-                        }}
-                    />
+                <Button aria-controls="categories-menu" aria-haspopup="true" onClick={handleClick} color="inherit">
+                    Catégories
+                </Button>
+                <Menu
+                    id="categories-menu"
+                    anchorEl={anchorEl}
+                    anchorOrigin={{
+                        vertical: 'bottom',
+                        horizontal: 'left',
+                    }}
+                    keepMounted
+                    transformOrigin={{
+                        vertical: 'top',
+                        horizontal: 'left',
+                    }}
+                    open={Boolean(anchorEl)}
+                    onClose={handleClose}
+                >
+                    {Object.keys(categories).map((category) => (
+                        <MenuItem key={category} onClick={(event) => handleSubMenuClick(event, category)}>
+                            {category}
+                        </MenuItem>
+                    ))}
+                </Menu>
+                <Menu
+                    id="sub-categories-menu"
+                    anchorEl={subAnchorEl}
+                    anchorOrigin={{
+                        vertical: 'bottom',
+                        horizontal: 'right',
+                    }}
+                    keepMounted
+                    transformOrigin={{
+                        vertical: 'top',
+                        horizontal: 'left',
+                    }}
+                    open={Boolean(subAnchorEl)}
+                    onClose={handleClose}
+                >
+                    {currentCategory && Object.keys(categories[currentCategory]).map((subject) => (
+                        <MenuItem key={subject} onClick={() => handleCourseClick(currentCategory, subject)}>
+                            {subject}
+                        </MenuItem>
+                    ))}
+                </Menu>
+                <Box sx={{ flexGrow: 1, mx: 2 }}>
+                    <SearchBar onClose={() => {}} sx={{ width: '600px' }} /> {/* Ajustez la largeur selon vos besoins */}
+                </Box>
+                <Box sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center' }}>
                     <Button color="inherit" component={Link} to="/trainer-dashboard">Formateur</Button>
                     <Button color="inherit" component={Link} to="/dashboard">Mon Apprentissage</Button>
-                    <IconButton edge="end" aria-label="account" aria-controls="menu-appbar" aria-haspopup="true" color="inherit">
+                    <IconButton color="inherit" component={Link} to="/messages">
+                        <MessageIcon />
+                    </IconButton>
+                    <IconButton color="inherit" component={Link} to="/notifications">
+                        <NotificationsIcon />
+                    </IconButton>
+                    <IconButton color="inherit" component={Link} to="/cart">
+                        <ShoppingCartIcon />
+                    </IconButton>
+                    <IconButton edge="end" aria-label="account" aria-controls="profile-menu" aria-haspopup="true" color="inherit" onClick={handleProfileMenuClick}>
                         <AccountCircle />
                     </IconButton>
+                    <Menu
+                        id="profile-menu"
+                        anchorEl={profileAnchorEl}
+                        keepMounted
+                        open={Boolean(profileAnchorEl)}
+                        onClose={handleProfileMenuClose}
+                    >
+                        <MenuItem component={Link} to="/dashboard">Mon Apprentissage</MenuItem>
+                        <MenuItem component={Link} to="/subscriptions">Mes Abonnements</MenuItem>
+                        <MenuItem component={Link} to="/current-courses">Cours en Cours</MenuItem>
+                        <MenuItem component={Link} to="/profile-settings">Paramètres de Profil</MenuItem>
+                        <MenuItem component={Link} to="/logout">Déconnexion</MenuItem>
+                    </Menu>
                 </Box>
             </Toolbar>
         </AppBar>

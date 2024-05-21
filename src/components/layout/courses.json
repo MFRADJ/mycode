@@ -1,0 +1,990 @@
+{
+  "Web Development": {
+    "HTML & CSS": [
+      {
+        "title": "Introduction to HTML",
+        "description": "Learn the basics of HTML.",
+        "instructor": "John Doe",
+        "rating": 4.5,
+        "duration": 5,
+        "level": "Beginner",
+        "language": "English",
+        "price": 19.99,
+        "popularity": 100,
+        "date": "2021-01-01"
+      },
+      {
+        "title": "Advanced CSS",
+        "description": "Deep dive into advanced CSS techniques.",
+        "instructor": "Jane Smith",
+        "rating": 4.7,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 29.99,
+        "popularity": 150,
+        "date": "2021-06-01"
+      },
+      {
+        "title": "Responsive Web Design",
+        "description": "Learn how to create responsive websites using CSS and HTML.",
+        "instructor": "Emily Johnson",
+        "rating": 4.8,
+        "duration": 8,
+        "level": "Intermediate",
+        "language": "Spanish",
+        "price": 24.99,
+        "popularity": 200,
+        "date": "2021-08-01"
+      }
+    ],
+    "JavaScript": [
+      {
+        "title": "JavaScript Basics",
+        "description": "Introduction to JavaScript programming.",
+        "instructor": "Michael Brown",
+        "rating": 4.4,
+        "duration": 6,
+        "level": "Beginner",
+        "language": "English",
+        "price": 21.99,
+        "popularity": 250,
+        "date": "2021-03-01"
+      },
+      {
+        "title": "JavaScript for Web Development",
+        "description": "Learn JavaScript for building dynamic web applications.",
+        "instructor": "Sarah Williams",
+        "rating": 4.6,
+        "duration": 9,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 27.99,
+        "popularity": 300,
+        "date": "2021-07-01"
+      },
+      {
+        "title": "Advanced JavaScript",
+        "description": "Master advanced JavaScript concepts and techniques.",
+        "instructor": "Rachel Lee",
+        "rating": 4.9,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "German",
+        "price": 39.99,
+        "popularity": 300,
+        "date": "2021-09-01"
+      }
+    ],
+    "React": [
+      {
+        "title": "React Basics",
+        "description": "Learn the fundamentals of React.",
+        "instructor": "Anna Davis",
+        "rating": 4.6,
+        "duration": 7,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 180,
+        "date": "2021-04-01"
+      },
+      {
+        "title": "Advanced React",
+        "description": "Deep dive into advanced React techniques.",
+        "instructor": "Mark Wilson",
+        "rating": 4.8,
+        "duration": 9,
+        "level": "Advanced",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-10-01"
+      }
+    ]
+  },
+  "Data Science": {
+    "Python for Data Science": [
+      {
+        "title": "Python Basics",
+        "description": "Learn the fundamentals of Python programming.",
+        "instructor": "Carol Green",
+        "rating": 4.1,
+        "duration": 6,
+        "level": "Beginner",
+        "language": "English",
+        "price": 19.99,
+        "popularity": 180,
+        "date": "2021-02-01"
+      },
+      {
+        "title": "Data Analysis with Python",
+        "description": "Learn to analyze data using Python libraries.",
+        "instructor": "Dave White",
+        "rating": 4.6,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-07-01"
+      },
+      {
+        "title": "Machine Learning with Python",
+        "description": "An introduction to machine learning using Python.",
+        "instructor": "Laura Black",
+        "rating": 4.7,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "Spanish",
+        "price": 44.99,
+        "popularity": 300,
+        "date": "2021-11-01"
+      }
+    ],
+    "Data Analysis": [
+      {
+        "title": "Data Analysis Techniques",
+        "description": "Learn various data analysis techniques.",
+        "instructor": "Sam Blue",
+        "rating": 4.3,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-05-01"
+      },
+      {
+        "title": "Data Visualization",
+        "description": "Learn to create data visualizations using popular tools.",
+        "instructor": "Jessica Brown",
+        "rating": 4.6,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-08-01"
+      },
+      {
+        "title": "Advanced Data Visualization",
+        "description": "Master advanced data visualization techniques.",
+        "instructor": "Michael Green",
+        "rating": 4.7,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "German",
+        "price": 39.99,
+        "popularity": 250,
+        "date": "2021-12-01"
+      }
+    ],
+    "R for Data Science": [
+      {
+        "title": "R Basics",
+        "description": "Learn the basics of R programming.",
+        "instructor": "Tom Harris",
+        "rating": 4.2,
+        "duration": 7,
+        "level": "Beginner",
+        "language": "English",
+        "price": 22.99,
+        "popularity": 150,
+        "date": "2021-03-01"
+      },
+      {
+        "title": "Advanced Data Visualization with R",
+        "description": "Master advanced data visualization techniques in R.",
+        "instructor": "Susan Clark",
+        "rating": 4.5,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 180,
+        "date": "2021-08-01"
+      }
+    ]
+  },
+  "Machine Learning": {
+    "Introduction to ML": [
+      {
+        "title": "Basics of Machine Learning",
+        "description": "An introduction to the basics of machine learning.",
+        "instructor": "Alice White",
+        "rating": 4.4,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-04-01"
+      },
+      {
+        "title": "Advanced ML Techniques",
+        "description": "Explore advanced machine learning techniques.",
+        "instructor": "Bob Black",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 39.99,
+        "popularity": 250,
+        "date": "2021-08-01"
+      },
+      {
+        "title": "ML Algorithms",
+        "description": "Learn about different machine learning algorithms.",
+        "instructor": "Charlie Green",
+        "rating": 4.8,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "French",
+        "price": 44.99,
+        "popularity": 300,
+        "date": "2021-12-01"
+      }
+    ],
+    "Deep Learning": [
+      {
+        "title": "Neural Networks",
+        "description": "Learn the fundamentals of neural networks.",
+        "instructor": "David Blue",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 220,
+        "date": "2021-05-01"
+      },
+      {
+        "title": "Deep Learning with TensorFlow",
+        "description": "Master deep learning using TensorFlow.",
+        "instructor": "Eve Brown",
+        "rating": 4.8,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "Spanish",
+        "price": 39.99,
+        "popularity": 280,
+        "date": "2021-09-01"
+      },
+      {
+        "title": "Advanced Deep Learning",
+        "description": "Deep dive into advanced deep learning techniques.",
+        "instructor": "Frank White",
+        "rating": 4.9,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "German",
+        "price": 49.99,
+        "popularity": 320,
+        "date": "2021-11-01"
+      }
+    ]
+  },
+  "Mobile Development": {
+    "Android Development": [
+      {
+        "title": "Introduction to Android",
+        "description": "Learn the basics of Android app development.",
+        "instructor": "Grace Green",
+        "rating": 4.3,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "English",
+        "price": 24.99,
+        "popularity": 180,
+        "date": "2021-02-01"
+      },
+      {
+        "title": "Advanced Android",
+        "description": "Deep dive into advanced Android development.",
+        "instructor": "Hank Brown",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "Spanish",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-08-01"
+      },
+      {
+        "title": "Kotlin for Android",
+        "description": "Learn Kotlin for Android development.",
+        "instructor": "Ivy Blue",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-06-01"
+      }
+    ],
+    "iOS Development": [
+      {
+        "title": "Introduction to iOS",
+        "description": "Learn the basics of iOS app development.",
+        "instructor": "Jack White",
+        "rating": 4.4,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "French",
+        "price": 24.99,
+        "popularity": 170,
+        "date": "2021-03-01"
+      },
+      {
+        "title": "Swift Programming",
+        "description": "Learn Swift programming for iOS development.",
+        "instructor": "Karen Black",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 210,
+        "date": "2021-06-01"
+      },
+      {
+        "title": "Advanced iOS Development",
+        "description": "Deep dive into advanced iOS development techniques.",
+        "instructor": "Leo Green",
+        "rating": 4.8,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 240,
+        "date": "2021-09-01"
+      }
+    ]
+  },
+  "Business": {
+    "Entrepreneurship": [
+      {
+        "title": "Starting a Business",
+        "description": "Learn how to start your own business.",
+        "instructor": "Maria White",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-04-01"
+      },
+      {
+        "title": "Scaling Your Startup",
+        "description": "Learn strategies for scaling your startup.",
+        "instructor": "Nathan Brown",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-07-01"
+      },
+      {
+        "title": "Business Plan Development",
+        "description": "Learn how to develop a comprehensive business plan.",
+        "instructor": "Olivia Green",
+        "rating": 4.8,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "German",
+        "price": 39.99,
+        "popularity": 250,
+        "date": "2021-11-01"
+      }
+    ],
+    "Marketing": [
+      {
+        "title": "Digital Marketing",
+        "description": "Learn the fundamentals of digital marketing.",
+        "instructor": "Paul Blue",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-05-01"
+      },
+      {
+        "title": "Brand Management",
+        "description": "Learn how to manage and grow a brand.",
+        "instructor": "Quincy White",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 210,
+        "date": "2021-08-01"
+      },
+      {
+        "title": "Marketing Analytics",
+        "description": "Learn to analyze marketing data to drive decisions.",
+        "instructor": "Rachel Black",
+        "rating": 4.8,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "Spanish",
+        "price": 39.99,
+        "popularity": 240,
+        "date": "2021-12-01"
+      }
+    ],
+    "Finance": [
+      {
+        "title": "Financial Modeling",
+        "description": "Learn how to build financial models.",
+        "instructor": "Steve Brown",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 34.99,
+        "popularity": 180,
+        "date": "2021-06-01"
+      },
+      {
+        "title": "Corporate Finance",
+        "description": "Learn the fundamentals of corporate finance.",
+        "instructor": "Tina Blue",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 220,
+        "date": "2021-09-01"
+      }
+    ]
+  },
+  "Cloud Computing": {
+    "AWS": [
+      {
+        "title": "AWS Fundamentals",
+        "description": "Learn the basics of Amazon Web Services.",
+        "instructor": "Ursula White",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-04-01"
+      },
+      {
+        "title": "Advanced AWS",
+        "description": "Deep dive into advanced AWS concepts and services.",
+        "instructor": "Victor Brown",
+        "rating": 4.8,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 250,
+        "date": "2021-08-01"
+      },
+      {
+        "title": "AWS Security",
+        "description": "Learn about securing AWS environments.",
+        "instructor": "Wendy Green",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-12-01"
+      }
+    ],
+    "Azure": [
+      {
+        "title": "Azure Basics",
+        "description": "Learn the basics of Microsoft Azure.",
+        "instructor": "Xavier Blue",
+        "rating": 4.5,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "English",
+        "price": 24.99,
+        "popularity": 180,
+        "date": "2021-03-01"
+      },
+      {
+        "title": "Advanced Azure",
+        "description": "Master advanced Azure services and solutions.",
+        "instructor": "Yolanda White",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-07-01"
+      }
+    ],
+    "Google Cloud": [
+      {
+        "title": "Google Cloud Fundamentals",
+        "description": "Learn the basics of Google Cloud Platform.",
+        "instructor": "Zach Black",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-05-01"
+      },
+      {
+        "title": "Google Cloud Security",
+        "description": "Learn about securing Google Cloud environments.",
+        "instructor": "Alex Blue",
+        "rating": 4.8,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "Spanish",
+        "price": 34.99,
+        "popularity": 240,
+        "date": "2021-09-01"
+      }
+    ]
+  },
+  "Cybersecurity": {
+    "Network Security": [
+      {
+        "title": "Introduction to Network Security",
+        "description": "Learn the fundamentals of network security.",
+        "instructor": "James Bond",
+        "rating": 4.3,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "English",
+        "price": 24.99,
+        "popularity": 200,
+        "date": "2021-01-15"
+      },
+      {
+        "title": "Advanced Network Security",
+        "description": "Dive into advanced network security techniques.",
+        "instructor": "Natasha Romanoff",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "Russian",
+        "price": 34.99,
+        "popularity": 300,
+        "date": "2021-07-15"
+      },
+      {
+        "title": "Network Security Tools",
+        "description": "Learn about various tools used in network security.",
+        "instructor": "Peter Parker",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 230,
+        "date": "2021-06-15"
+      }
+    ],
+    "Ethical Hacking": [
+      {
+        "title": "Ethical Hacking for Beginners",
+        "description": "Introduction to ethical hacking and penetration testing.",
+        "instructor": "Bruce Wayne",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 250,
+        "date": "2021-02-15"
+      },
+      {
+        "title": "Advanced Penetration Testing",
+        "description": "Master advanced penetration testing techniques.",
+        "instructor": "Clark Kent",
+        "rating": 4.8,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "English",
+        "price": 39.99,
+        "popularity": 350,
+        "date": "2021-08-15"
+      },
+      {
+        "title": "Certified Ethical Hacker Preparation",
+        "description": "Prepare for the Certified Ethical Hacker (CEH) exam.",
+        "instructor": "Diana Prince",
+        "rating": 4.6,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 300,
+        "date": "2021-09-01"
+      }
+    ],
+    "Cybersecurity Management": [
+      {
+        "title": "Cybersecurity Risk Management",
+        "description": "Learn to manage cybersecurity risks.",
+        "instructor": "Tony Stark",
+        "rating": 4.6,
+        "duration": 9,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 220,
+        "date": "2021-03-15"
+      },
+      {
+        "title": "Incident Response Planning",
+        "description": "Learn how to plan and respond to cybersecurity incidents.",
+        "instructor": "Diana Prince",
+        "rating": 4.7,
+        "duration": 11,
+        "level": "Advanced",
+        "language": "English",
+        "price": 34.99,
+        "popularity": 280,
+        "date": "2021-09-15"
+      }
+    ]
+  },
+  "Software Development": {
+    "DevOps": [
+      {
+        "title": "DevOps Fundamentals",
+        "description": "Learn the basics of DevOps practices.",
+        "instructor": "Edward Blue",
+        "rating": 4.4,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-02-01"
+      },
+      {
+        "title": "Advanced DevOps",
+        "description": "Master advanced DevOps techniques.",
+        "instructor": "Frank Green",
+        "rating": 4.7,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 240,
+        "date": "2021-07-01"
+      },
+      {
+        "title": "CI/CD Pipelines",
+        "description": "Learn to create and manage CI/CD pipelines.",
+        "instructor": "Grace Brown",
+        "rating": 4.6,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-05-01"
+      }
+    ],
+    "Software Testing": [
+      {
+        "title": "Introduction to Software Testing",
+        "description": "Learn the basics of software testing.",
+        "instructor": "Hank White",
+        "rating": 4.3,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "English",
+        "price": 24.99,
+        "popularity": 180,
+        "date": "2021-01-15"
+      },
+      {
+        "title": "Automated Testing",
+        "description": "Learn to automate software testing.",
+        "instructor": "Ivy Green",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-06-01"
+      },
+      {
+        "title": "Performance Testing",
+        "description": "Learn to conduct performance testing of software.",
+        "instructor": "Jack Brown",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Advanced",
+        "language": "German",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-08-01"
+      }
+    ],
+    "Agile Methodologies": [
+      {
+        "title": "Agile Basics",
+        "description": "Learn the basics of Agile methodologies.",
+        "instructor": "Karen White",
+        "rating": 4.5,
+        "duration": 8,
+        "level": "Beginner",
+        "language": "English",
+        "price": 24.99,
+        "popularity": 170,
+        "date": "2021-03-01"
+      },
+      {
+        "title": "Advanced Agile",
+        "description": "Deep dive into advanced Agile techniques.",
+        "instructor": "Leo Green",
+        "rating": 4.7,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 29.99,
+        "popularity": 210,
+        "date": "2021-06-01"
+      },
+      {
+        "title": "Scrum Master Certification",
+        "description": "Prepare for Scrum Master certification.",
+        "instructor": "Mia Blue",
+        "rating": 4.8,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 240,
+        "date": "2021-09-01"
+      }
+    ]
+  },
+  "Artificial Intelligence": {
+    "AI Fundamentals": [
+      {
+        "title": "Introduction to AI",
+        "description": "Learn the basics of artificial intelligence.",
+        "instructor": "Nina White",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-04-01"
+      },
+      {
+        "title": "AI in Business",
+        "description": "Learn how AI is applied in business.",
+        "instructor": "Oliver Green",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-08-01"
+      },
+      {
+        "title": "AI Ethics",
+        "description": "Learn about the ethical implications of AI.",
+        "instructor": "Paul Brown",
+        "rating": 4.8,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "Spanish",
+        "price": 39.99,
+        "popularity": 250,
+        "date": "2021-12-01"
+      }
+    ],
+    "NLP": [
+      {
+        "title": "Natural Language Processing Basics",
+        "description": "Learn the basics of natural language processing.",
+        "instructor": "Quincy White",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-05-01"
+      },
+      {
+        "title": "Advanced NLP",
+        "description": "Master advanced techniques in natural language processing.",
+        "instructor": "Rachel Black",
+        "rating": 4.8,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 240,
+        "date": "2021-09-01"
+      },
+      {
+        "title": "NLP with Python",
+        "description": "Learn to apply NLP techniques using Python.",
+        "instructor": "Sarah Blue",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-07-01"
+      }
+    ],
+    "Computer Vision": [
+      {
+        "title": "Computer Vision Basics",
+        "description": "Learn the basics of computer vision.",
+        "instructor": "Thomas Green",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Beginner",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-04-01"
+      },
+      {
+        "title": "Advanced Computer Vision",
+        "description": "Deep dive into advanced computer vision techniques.",
+        "instructor": "Uma Brown",
+        "rating": 4.8,
+        "duration": 14,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 240,
+        "date": "2021-09-01"
+      },
+      {
+        "title": "Computer Vision with Python",
+        "description": "Learn to apply computer vision techniques using Python.",
+        "instructor": "Victor Blue",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Intermediate",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-07-01"
+      }
+    ]
+  },
+  "Project Management": {
+    "PMP": [
+      {
+        "title": "PMP Certification Preparation",
+        "description": "Prepare for the PMP certification exam.",
+        "instructor": "Wendy White",
+        "rating": 4.6,
+        "duration": 15,
+        "level": "Advanced",
+        "language": "English",
+        "price": 44.99,
+        "popularity": 250,
+        "date": "2021-04-01"
+      },
+      {
+        "title": "Advanced PMP Techniques",
+        "description": "Learn advanced techniques for PMP certification.",
+        "instructor": "Xander Green",
+        "rating": 4.8,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "French",
+        "price": 39.99,
+        "popularity": 220,
+        "date": "2021-08-01"
+      }
+    ],
+    "Agile": [
+      {
+        "title": "Agile Project Management",
+        "description": "Learn the principles of Agile project management.",
+        "instructor": "Yolanda Brown",
+        "rating": 4.5,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-03-01"
+      },
+      {
+        "title": "Scrum Master Certification",
+        "description": "Prepare for Scrum Master certification.",
+        "instructor": "Zara White",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-07-01"
+      },
+      {
+        "title": "Kanban Methodologies",
+        "description": "Learn about Kanban methodologies for project management.",
+        "instructor": "Alan Blue",
+        "rating": 4.6,
+        "duration": 10,
+        "level": "Intermediate",
+        "language": "French",
+        "price": 29.99,
+        "popularity": 200,
+        "date": "2021-05-01"
+      }
+    ],
+    "Risk Management": [
+      {
+        "title": "Project Risk Management",
+        "description": "Learn to manage risks in projects.",
+        "instructor": "Betty Green",
+        "rating": 4.5,
+        "duration": 9,
+        "level": "Intermediate",
+        "language": "English",
+        "price": 29.99,
+        "popularity": 190,
+        "date": "2021-02-01"
+      },
+      {
+        "title": "Advanced Risk Management",
+        "description": "Master advanced risk management techniques.",
+        "instructor": "Charlie Brown",
+        "rating": 4.7,
+        "duration": 12,
+        "level": "Advanced",
+        "language": "German",
+        "price": 34.99,
+        "popularity": 220,
+        "date": "2021-06-01"
+      }
+    ]
+  }
+}
