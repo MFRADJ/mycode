@@ -9,6 +9,7 @@ import Sidebar from '../components/layout/Sidebar';
 
 const TrainerDashboard = () => {
     const [profileAnchorEl, setProfileAnchorEl] = useState(null);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
     const handleProfileMenuClick = (event) => {
         setProfileAnchorEl(event.currentTarget);
@@ -18,12 +19,22 @@ const TrainerDashboard = () => {
         setProfileAnchorEl(null);
     };
 
+    const toggleDrawer = () => {
+        setIsSidebarOpen(!isSidebarOpen);
+    };
+
     return (
         <Box sx={{ display: 'flex' }}>
-            <Sidebar />
+            <Sidebar isOpen={isSidebarOpen} toggleDrawer={toggleDrawer} />
             <Box
                 component="main"
-                sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
+                sx={{
+                    flexGrow: 1,
+                    bgcolor: 'background.default',
+                    p: 3,
+                    marginLeft: isSidebarOpen ? '240px' : '60px', // Ajustement dynamique de la marge
+                    transition: 'margin-left 0.3s',
+                }}
             >
                 <AppBar position="static" color="default">
                     <Toolbar>

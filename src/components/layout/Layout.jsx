@@ -19,7 +19,8 @@ const Layout = ({ children }) => {
             {/*{!shouldHideNavbar && !isDashboardRoute && <Navbar />}*/}
             {/*{isDashboardRoute && <DashboardNavbar />}*/}
             {!shouldHideNavbar && !isAuthenticated && <Navbar />}
-            {!shouldHideNavbar && isAuthenticated && <DashboardNavbar />}
+            {/*{!shouldHideNavbar && isAuthenticated && <DashboardNavbar />}*/}
+            {!shouldHideNavbar && isDashboardRoute && isAuthenticated && <DashboardNavbar />}
             <main style={{ flex: 1 }}>
                 {children}
             </main>
