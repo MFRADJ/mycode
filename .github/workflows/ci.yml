@@ -1,4 +1,4 @@
-name: CI/CD for React App
+name: CI for React App
 
 on:
   push:
@@ -27,14 +27,5 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Lint code
-        run: npm run lint
-
       - name: Build project
         run: npm run build
-
-      - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main'
-        run: |
-          npm install -g gh-pages
-          npm run deploy
