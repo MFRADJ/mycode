@@ -1,11 +1,24 @@
 // src/components/TrainerDashboard.js
 import React, { useState } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
-import { Box, Toolbar, Typography, Button, IconButton, Menu, MenuItem, AppBar } from '@mui/material';
+import { Routes, Route, Link, useNavigate } from 'react-router-dom';
+import {
+    Box,
+    Toolbar,
+    Typography,
+    Button,
+    IconButton,
+    Menu,
+    MenuItem,
+    AppBar,
+    Card,
+    CardContent,
+    CardActions
+} from '@mui/material';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MessageIcon from '@mui/icons-material/Message';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import Sidebar from '../components/layout/Sidebar';
+import CreatePage from './CreatePage';
 
 const TrainerDashboard = () => {
     const [profileAnchorEl, setProfileAnchorEl] = useState(null);
@@ -70,22 +83,58 @@ const TrainerDashboard = () => {
                     <Route path="performance" element={<Performance />} />
                     <Route path="tools" element={<Tools />} />
                     <Route path="resources" element={<Resources />} />
+                    <Route path="create" element={<CreatePage />} /> {/* Ajouter la route pour CreatePage */}
                 </Routes>
             </Box>
         </Box>
     );
 };
 
-const Courses = () => (
-    <div>
-        <Typography variant="h4" gutterBottom>
-            Gérer vos cours
-        </Typography>
-        <Button variant="contained" color="primary">
-            Créez votre cours
-        </Button>
-    </div>
-);
+const Courses = () => {
+    const navigate = useNavigate(); // Utiliser useNavigate pour la redirection
+
+    const courses = [
+        { id: 1, title: 'Cours 1', description: 'Description du cours 1' },
+        { id: 2, title: 'Cours 2', description: 'Description du cours 2' },
+        { id: 3, title: 'Cours 3', description: 'Description du cours 3' },
+    ];
+
+    return (
+        <div>
+            <Typography variant="h4" gutterBottom>
+                Gérer vos cours
+            </Typography>
+            <Button
+                variant="contained"
+                color="primary"
+                onClick={() => navigate('/trainer-dashboard/create')} // Rediriger vers CreatePage
+            >
+                Créer Un cours
+            </Button>
+            <Typography variant="h5" gutterBottom sx={{ marginTop: 4 }}>
+                Mes cours
+            </Typography>
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
+                {courses.map((course) => (
+                    <Card key={course.id} sx={{ width: 300 }}>
+                        <CardContent>
+                            <Typography variant="h6">
+                                {course.title}
+                            </Typography>
+                            <Typography variant="body2">
+                                {course.description}
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small" color="primary">Modifier</Button>
+                            <Button size="small" color="secondary">Supprimer</Button>
+                        </CardActions>
+                    </Card>
+                ))}
+            </Box>
+        </div>
+    );
+};
 
 const Communication = () => (
     <div>
