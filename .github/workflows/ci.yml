@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch:  # Ajout de la possibilité d'exécuter manuellement
 
 jobs:
   build:
