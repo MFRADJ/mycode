@@ -1,4 +1,4 @@
-name: CI
+name: CI for React App
 
 on:
   push:
