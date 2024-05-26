@@ -1,4 +1,3 @@
-// src/components/TrainerDashboard.js
 import React, { useState } from 'react';
 import { Routes, Route, Link, useNavigate } from 'react-router-dom';
 import {
@@ -19,6 +18,8 @@ import MessageIcon from '@mui/icons-material/Message';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import Sidebar from '../components/layout/Sidebar';
 import CreatePage from './CreatePage';
+import ScheduleSessionPage from './ScheduleSessionPage';
+import ScheduleEvaluationPage from './ScheduleEvaluationPage';
 
 const TrainerDashboard = () => {
     const [profileAnchorEl, setProfileAnchorEl] = useState(null);
@@ -83,7 +84,9 @@ const TrainerDashboard = () => {
                     <Route path="performance" element={<Performance />} />
                     <Route path="tools" element={<Tools />} />
                     <Route path="resources" element={<Resources />} />
-                    <Route path="create" element={<CreatePage />} /> {/* Ajouter la route pour CreatePage */}
+                    <Route path="create" element={<CreatePage />} />
+                    <Route path="schedule-session" element={<ScheduleSessionPage />} />
+                    <Route path="schedule-evaluation" element={<ScheduleEvaluationPage />} />
                 </Routes>
             </Box>
         </Box>
@@ -91,7 +94,7 @@ const TrainerDashboard = () => {
 };
 
 const Courses = () => {
-    const navigate = useNavigate(); // Utiliser useNavigate pour la redirection
+    const navigate = useNavigate();
 
     const courses = [
         { id: 1, title: 'Cours 1', description: 'Description du cours 1' },
@@ -107,9 +110,25 @@ const Courses = () => {
             <Button
                 variant="contained"
                 color="primary"
-                onClick={() => navigate('/trainer-dashboard/create')} // Rediriger vers CreatePage
+                onClick={() => navigate('/trainer-dashboard/create')}
             >
                 Créer Un cours
+            </Button>
+            <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => navigate('/trainer-dashboard/schedule-session')}
+                sx={{ ml: 2 }}
+            >
+                Planifier Séance
+            </Button>
+            <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => navigate('/trainer-dashboard/schedule-evaluation')}
+                sx={{ ml: 2 }}
+            >
+                Planifier Évaluation
             </Button>
             <Typography variant="h5" gutterBottom sx={{ marginTop: 4 }}>
                 Mes cours
