@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Container, Box, Typography, TextField, Button, Grid, Card, CardContent } from '@mui/material';
+import { Container, Box, Typography, TextField, Button, Grid, Card, CardContent, Link } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import usersData from './user.json'; // Assurez-vous que le chemin est correct
+import axios from 'axios';
 import { useAuth } from '../contexts/AuthContext';
 
 const LoginPage = () => {
@@ -18,17 +18,26 @@ const LoginPage = () => {
         setFormData({ ...formData, [name]: value });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-
-        // Check user credentials from the users.json file
-        const user = usersData.find(user => user.email === formData.email && user.password === formData.password);
-        if (user) {
-            login();
-            navigate('/dashboard');
-        } else {
+        try {
+            const response = await axios.post('http://localhost:8080/auth/authenticate', formData);
+            if (response.status === 200) {
+                login();
+                navigate('/dashboard');
+            }
+        } catch (error) {
             alert('Invalid email or password');
         }
+    };
+
+
+    const handleForgotPassword = () => {
+        navigate('/forgot-password');
+    };
+
+    const handleSignUp = () => {
+        navigate('/signup');
     };
 
     return (
@@ -70,6 +79,18 @@ const LoginPage = () => {
                                         Login
                                     </Button>
                                 </form>
+                                <Grid container justifyContent="space-between" sx={{ marginTop: 2 }}>
+                                    <Grid item>
+                                        <Link component="button" variant="body2" onClick={handleForgotPassword}>
+                                            Mot de passe oublié ?
+                                        </Link>
+                                    </Grid>
+                                    <Grid item>
+                                        <Link component="button" variant="body2" onClick={handleSignUp}>
+                                            Vous n'avez pas un compte ? S'inscrire
+                                        </Link>
+                                    </Grid>
+                                </Grid>
                             </CardContent>
                         </Card>
                     </Grid>

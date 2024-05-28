@@ -1,189 +1,195 @@
+// src/components/TrainerDashboard.js
+import React, { useState } from 'react';
+import { Routes, Route, Link, useNavigate } from 'react-router-dom';
+import {
+    Box,
+    Toolbar,
+    Typography,
+    Button,
+    IconButton,
+    Menu,
+    MenuItem,
+    AppBar,
+    Card,
+    CardContent,
+    CardActions
+} from '@mui/material';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import MessageIcon from '@mui/icons-material/Message';
+import AccountCircle from '@mui/icons-material/AccountCircle';
+import Sidebar from '../components/layout/Sidebar';
+import CreatePage from './CreatePage';
+import ScheduleSessionPage from './ScheduleSessionPage';
+import ScheduleEvaluationPage from './ScheduleEvaluationPage';
 
-import React, { useEffect, useState } from 'react';
-import { useParams, useLocation } from 'react-router-dom';
-import { Grid, MenuItem, Select, FormControl, InputLabel, Slider, Box, Typography } from '@mui/material';
-import coursesData from './courses.json';
-import CourseCard from './CourseCard';
+const TrainerDashboard = () => {
+    const [profileAnchorEl, setProfileAnchorEl] = useState(null);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
-const CoursePage = () => {
-    const { theme, subject } = useParams();
-    const location = useLocation();
-    const [courses, setCourses] = useState([]);
-    const [filteredCourses, setFilteredCourses] = useState([]);
-    const [ratingFilter, setRatingFilter] = useState([1, 5]);
-    const [durationFilter, setDurationFilter] = useState([0, 20]);
-    const [levelFilter, setLevelFilter] = useState('');
-    const [languageFilter, setLanguageFilter] = useState('');
-    const [priceFilter, setPriceFilter] = useState([0, 50]);
-    const [sortOption, setSortOption] = useState('');
+    const handleProfileMenuClick = (event) => {
+        setProfileAnchorEl(event.currentTarget);
+    };
 
-    const searchQuery = new URLSearchParams(location.search).get('query');
+    const handleProfileMenuClose = () => {
+        setProfileAnchorEl(null);
+    };
 
-    useEffect(() => {
-        if (theme && subject) {
-            const decodedTheme = decodeURIComponent(theme);
-            const decodedSubject = decodeURIComponent(subject);
-            const coursesForThemeAndSubject = coursesData[decodedTheme]?.[decodedSubject]?.map(course => ({ ...course, theme: decodedTheme, subject: decodedSubject })) || [];
-            setCourses(coursesForThemeAndSubject);
-            setFilteredCourses(coursesForThemeAndSubject);
-        } else if (searchQuery) {
-            const decodedSearchQuery = decodeURIComponent(searchQuery);
-            const allCourses = Object.values(coursesData).flatMap(theme =>
-                Object.entries(theme).flatMap(([subject, courses]) =>
-                    courses.map(course => ({ ...course, theme, subject }))
-                )
-            );
-            const filtered = allCourses.filter(course =>
-                course.title.toLowerCase().includes(decodedSearchQuery.toLowerCase()) ||
-                course.description.toLowerCase().includes(decodedSearchQuery.toLowerCase())
-            );
-            setCourses(filtered);
-            setFilteredCourses(filtered);
-        }
-    }, [theme, subject, searchQuery]);
+    const toggleDrawer = () => {
+        setIsSidebarOpen(!isSidebarOpen);
+    };
 
-    useEffect(() => {
-        let filtered = courses;
+    return (
+        <Box sx={{ display: 'flex' }}>
+            <Sidebar isOpen={isSidebarOpen} toggleDrawer={toggleDrawer} />
+            <Box
+                component="main"
+                sx={{
+                    flexGrow: 1,
+                    bgcolor: 'background.default',
+                    p: 3,
+                    marginLeft: isSidebarOpen ? '240px' : '60px', // Ajustement dynamique de la marge
+                    transition: 'margin-left 0.3s',
+                }}
+            >
+                <AppBar position="static" color="default">
+                    <Toolbar>
+                        <Box sx={{ flexGrow: 1 }} />
+                        <IconButton color="inherit" component={Link} to="/messages">
+                            <MessageIcon />
+                        </IconButton>
+                        <IconButton color="inherit" component={Link} to="/notifications">
+                            <NotificationsIcon />
+                        </IconButton>
+                        <IconButton edge="end" aria-label="account" aria-controls="profile-menu" aria-haspopup="true" color="inherit" onClick={handleProfileMenuClick}>
+                            <AccountCircle />
+                        </IconButton>
+                        <Menu
+                            id="profile-menu"
+                            anchorEl={profileAnchorEl}
+                            keepMounted
+                            open={Boolean(profileAnchorEl)}
+                            onClose={handleProfileMenuClose}
+                        >
+                            <MenuItem component={Link} to="/participants">Participants</MenuItem>
+                            <MenuItem component={Link} to="/trainer-dashboard/courses">Mes cours</MenuItem>
+                            <MenuItem component={Link} to="/portfolio">Mon profil (Portfolio)</MenuItem>
+                            <MenuItem component={Link} to="/profile-settings">Paramètres de profil</MenuItem>
+                            <MenuItem component={Link} to="/logout">Se déconnecter</MenuItem>
+                        </Menu>
+                    </Toolbar>
+                </AppBar>
+                <Toolbar />
+                <Routes>
+                    <Route path="courses" element={<Courses />} />
+                    <Route path="communication" element={<Communication />} />
+                    <Route path="performance" element={<Performance />} />
+                    <Route path="tools" element={<Tools />} />
+                    <Route path="resources" element={<Resources />} />
+                    <Route path="create" element={<CreatePage />} /> {/* Ajouter la route pour CreatePage */}
+                    <Route path="schedule-session" element={<ScheduleSessionPage />} /> {/* Ajouter la route pour ScheduleSessionPage */}
+                    <Route path="schedule-evaluation" element={<ScheduleEvaluationPage />} /> {/* Ajouter la route pour ScheduleEvaluationPage */}
+                </Routes>
+            </Box>
+        </Box>
+    );
+};
 
-        filtered = filtered.filter(course => course.rating >= ratingFilter[0] && course.rating <= ratingFilter[1]);
-        filtered = filtered.filter(course => course.duration >= durationFilter[0] && course.duration <= durationFilter[1]);
-        if (levelFilter) {
-            filtered = filtered.filter(course => course.level === levelFilter);
-        }
-        if (languageFilter) {
-            filtered = filtered.filter(course => course.language === languageFilter);
-        }
-        filtered = filtered.filter(course => course.price >= priceFilter[0] && course.price <= priceFilter[1]);
+const Courses = () => {
+    const navigate = useNavigate(); // Utiliser useNavigate pour la redirection
 
-        if (sortOption) {
-            switch (sortOption) {
-                case 'popularity':
-                    filtered = filtered.sort((a, b) => b.popularity - a.popularity);
-                    break;
-                case 'rating':
-                    filtered = filtered.sort((a, b) => b.rating - a.rating);
-                    break;
-                case 'recent':
-                    filtered = filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
-                    break;
-                default:
-                    break;
-            }
-        }
-
-        setFilteredCourses(filtered);
-    }, [ratingFilter, durationFilter, levelFilter, languageFilter, priceFilter, sortOption, courses]);
-
-    const levels = [...new Set(courses.map(course => course.level))];
-    const languages = [...new Set(courses.map(course => course.language))];
+    const courses = [
+        { id: 1, title: 'Cours 1', description: 'Description du cours 1' },
+        { id: 2, title: 'Cours 2', description: 'Description du cours 2' },
+        { id: 3, title: 'Cours 3', description: 'Description du cours 3' },
+    ];
 
     return (
         <div>
-            <h1>{subject ? subject : "Search Results"} Courses</h1>
-            <div style={{ marginBottom: '20px' }}>
-                <Box sx={{ display: 'flex', gap: 2 }}>
-                    <FormControl variant="outlined" style={{ minWidth: 150 }}>
-                        <InputLabel>Level</InputLabel>
-                        <Select
-                            value={levelFilter}
-                            onChange={(e) => setLevelFilter(e.target.value)}
-                            label="Level"
-                        >
-                            <MenuItem value="">
-                                <em>All</em>
-                            </MenuItem>
-                            {levels.map((level) => (
-                                <MenuItem key={level} value={level}>
-                                    {level}
-                                </MenuItem>
-                            ))}
-                        </Select>
-                    </FormControl>
-                    <FormControl variant="outlined" style={{ minWidth: 150 }}>
-                        <InputLabel>Language</InputLabel>
-                        <Select
-                            value={languageFilter}
-                            onChange={(e) => setLanguageFilter(e.target.value)}
-                            label="Language"
-                        >
-                            <MenuItem value="">
-                                <em>All</em>
-                            </MenuItem>
-                            {languages.map((language) => (
-                                <MenuItem key={language} value={language}>
-                                    {language}
-                                </MenuItem>
-                            ))}
-                        </Select>
-                    </FormControl>
-                    <Box sx={{ width: 200 }}>
-                        <Typography id="rating-slider" gutterBottom>
-                            Rating
-                        </Typography>
-                        <Slider
-                            value={ratingFilter}
-                            onChange={(e, newValue) => setRatingFilter(newValue)}
-                            valueLabelDisplay="auto"
-                            step={0.5}
-                            marks
-                            min={1}
-                            max={5}
-                            aria-labelledby="rating-slider"
-                        />
-                    </Box>
-                    <Box sx={{ width: 200 }}>
-                        <Typography id="duration-slider" gutterBottom>
-                            Duration (hours)
-                        </Typography>
-                        <Slider
-                            value={durationFilter}
-                            onChange={(e, newValue) => setDurationFilter(newValue)}
-                            valueLabelDisplay="auto"
-                            step={1}
-                            marks
-                            min={0}
-                            max={20}
-                            aria-labelledby="duration-slider"
-                        />
-                    </Box>
-                    <Box sx={{ width: 200 }}>
-                        <Typography id="price-slider" gutterBottom>
-                            Price ($)
-                        </Typography>
-                        <Slider
-                            value={priceFilter}
-                            onChange={(e, newValue) => setPriceFilter(newValue)}
-                            valueLabelDisplay="auto"
-                            step={5}
-                            marks
-                            min={0}
-                            max={50}
-                            aria-labelledby="price-slider"
-                        />
-                    </Box>
-                    <FormControl variant="outlined" style={{ minWidth: 150 }}>
-                        <InputLabel>Sort By</InputLabel>
-                        <Select
-                            value={sortOption}
-                            onChange={(e) => setSortOption(e.target.value)}
-                            label="Sort By"
-                        >
-                            <MenuItem value="popularity">Most Popular</MenuItem>
-                            <MenuItem value="rating">Best Rated</MenuItem>
-                            <MenuItem value="recent">Most Recent</MenuItem>
-                        </Select>
-                    </FormControl>
-                </Box>
-            </div>
-            <Grid container spacing={2}>
-                {filteredCourses.map((course, index) => (
-                    <Grid item key={index} xs={12} sm={6} md={4}>
-                        <CourseCard course={course} theme={course.theme} subject={course.subject} />
-                    </Grid>
+            <Typography variant="h4" gutterBottom>
+                Gérer vos cours
+            </Typography>
+            <Button
+                variant="contained"
+                color="primary"
+                onClick={() => navigate('/trainer-dashboard/create')} // Rediriger vers CreatePage
+            >
+                Créer Un cours
+            </Button>
+            <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => navigate('/trainer-dashboard/schedule-session')} // Rediriger vers ScheduleSessionPage
+                // sx={{ ml: 2 }}
+            >
+                Planifier Séance
+            </Button>
+            <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => navigate('/trainer-dashboard/schedule-evaluation')} // Rediriger vers ScheduleEvaluationPage
+                // sx={{ ml: 2 }}
+            >
+                Planifier Évaluation
+            </Button>
+            <Typography variant="h5" gutterBottom sx={{ marginTop: 4 }}>
+                Mes cours
+            </Typography>
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
+                {courses.map((course) => (
+                    <Card key={course.id} sx={{ width: 300 }}>
+                        <CardContent>
+                            <Typography variant="h6">
+                                {course.title}
+                            </Typography>
+                            <Typography variant="body2">
+                                {course.description}
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small" color="primary">Modifier</Button>
+                            <Button size="small" color="secondary">Supprimer</Button>
+                        </CardActions>
+                    </Card>
                 ))}
-            </Grid>
+            </Box>
         </div>
     );
 };
 
-export default CoursePage;
+const Communication = () => (
+    <div>
+        <Typography variant="h4" gutterBottom>
+            Communication avec les participants
+        </Typography>
+        {/* Add content here */}
+    </div>
+);
+
+const Performance = () => (
+    <div>
+        <Typography variant="h4" gutterBottom>
+            Suivi des performances
+        </Typography>
+        {/* Add content here */}
+    </div>
+);
+
+const Tools = () => (
+    <div>
+        <Typography variant="h4" gutterBottom>
+            Outils de formateur
+        </Typography>
+        {/* Add content here */}
+    </div>
+);
+
+const Resources = () => (
+    <div>
+        <Typography variant="h4" gutterBottom>
+            Ressources pour les formateurs
+        </Typography>
+        {/* Add content here */}
+    </div>
+);
+
+export default TrainerDashboard;

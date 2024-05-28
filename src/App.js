@@ -9,11 +9,13 @@ import SignupPage from "./pages/SignupPage";
 import DashboardPage from "./pages/DashboardPage";
 import {AuthProvider} from "./contexts/AuthContext";
 import TrainerDashboard from "./pages/TrainerDashboard.js";
+import VerificationPage from "./pages/VerificationPage";
 
 function App() {
 
 
     return (
+
         <AuthProvider>
         <Router>
             <Layout>
@@ -24,6 +26,7 @@ function App() {
                     <Route path="/courses/:theme/:subject/:title" element={<CourseDetailPage />} />
                     <Route path="/login" element={<LoginPage />} />
                     <Route path="/signup" element={<SignupPage />} />
+                    <Route path="/activate-account" element={<VerificationPage/>} />
                     <Route path="/dashboard" element={<DashboardPage />} />
                     <Route path="/trainer-dashboard/*" element={<TrainerDashboard />} />
                 </Routes>
