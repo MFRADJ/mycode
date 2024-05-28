@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Container, Box, Typography, TextField, Button, Grid, Card, CardContent } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { useAuth } from '../contexts/AuthContext';
 
 const SignupPage = () => {
     const [formData, setFormData] = useState({
@@ -14,7 +13,6 @@ const SignupPage = () => {
     });
 
     const navigate = useNavigate();
-    const { login } = useAuth();
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -32,9 +30,9 @@ const SignupPage = () => {
         try {
             const response = await axios.post('http://localhost:8080/auth/register', formData);
 
-            if (response.status === 200) {
-                login();
-                navigate('/dashboard');
+            if (response.status === 202) {
+                alert('Please check your email for the verification code.');
+                navigate('/activate-account', { state: { email: formData.email } }); // Redirige vers la page de vérification
             }
         } catch (error) {
             if (error.response && error.response.status === 400) {
