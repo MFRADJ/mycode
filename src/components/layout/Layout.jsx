@@ -16,9 +16,11 @@ const Layout = ({ children }) => {
 
     return (
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+            {!shouldHideNavbar && !isDashboardRoute && <Navbar />}
+            {isDashboardRoute && isAuthenticated && <DashboardNavbar />}
 
-            {!shouldHideNavbar && !isAuthenticated && <Navbar />}
-            {!shouldHideNavbar && isDashboardRoute && isAuthenticated && <DashboardNavbar />}
+            {/*{!shouldHideNavbar && !isAuthenticated && <Navbar />}*/}
+            {/*{!shouldHideNavbar && isDashboardRoute && isAuthenticated && <DashboardNavbar />}*/}
             <main style={{ flex: 1 }}>
                 {children}
             </main>
