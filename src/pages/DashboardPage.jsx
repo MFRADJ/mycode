@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Box, Typography, Grid, Paper, List, ListItem, ListItemText, LinearProgress } from '@mui/material';
 import { Bar } from 'react-chartjs-2';
+import { useNavigate } from 'react-router-dom';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -50,6 +51,12 @@ const sampleChartData = {
 };
 
 const DashboardPage = () => {
+    const navigate = useNavigate();
+
+    const handleCourseClick = (courseId) => {
+        navigate(`/course-details/${courseId}`);
+    };
+
     return (
         <Container>
             <Box sx={{ padding: 4 }}>
@@ -63,7 +70,11 @@ const DashboardPage = () => {
                             <Typography variant="h6" gutterBottom>My Courses</Typography>
                             <List>
                                 {sampleCourses.map(course => (
-                                    <ListItem key={course.id}>
+                                    <ListItem
+                                        key={course.id}
+                                        button
+                                        onClick={() => handleCourseClick(course.id)}
+                                    >
                                         <ListItemText primary={course.title} />
                                         <Box sx={{ width: '50%' }}>
                                             <LinearProgress variant="determinate" value={course.progress} />

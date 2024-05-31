@@ -17,7 +17,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import MessageIcon from '@mui/icons-material/Message';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import Sidebar from '../components/layout/Sidebar';
-import CreatePage from './CreatePage';
+import CreatePage from './CreateCoursePage';
 import ScheduleSessionPage from './ScheduleSessionPage';
 import ScheduleEvaluationPage from './ScheduleEvaluationPage';
 
