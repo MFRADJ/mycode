@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "title": "Course 1",
+    "instructor": "Instructor Name",
+    "description": "Course 1 description",
+    "content": [
+      {
+        "title": "Section 1",
+        "subsections": [
+          {
+            "title": "Subsection 1.1",
+            "duration": 10
+          }
+        ]
+      }
+    ],
+    "recordings": [
+      {
+        "title": "Recording 1",
+        "url": "https://example.com/recording1"
+      }
+    ],
+    "writtenResources": [
+      {
+        "title": "Resource 1",
+        "url": "https://example.com/resource1"
+      }
+    ],
+    "tests": [
+      {
+        "title": "Test 1",
+        "url": "https://example.com/test1"
+      }
+    ],
+    "quizzes": [
+      {
+        "title": "Quiz 1",
+        "url": "https://example.com/quiz1"
+      }
+    ],
+    "finalEvaluation": {
+      "title": "Final Evaluation",
+      "url": "https://vscode.dev/"
+    },
+    "liveSessions": [
+      {
+        "title": "Live Session 1",
+        "start": "2024-06-01T10:00:00Z",
+        "end": "2024-06-01T12:00:00Z",
+        "url": "https://example.com/session1"
+      }
+    ]
+  }
+]

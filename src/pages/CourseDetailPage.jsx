@@ -9,15 +9,18 @@ import courseDetailsData from './CourseDetails.json';
 const localizer = momentLocalizer(moment);
 
 const CourseDetailPage = () => {
-    const { theme, subject, title } = useParams();
+    const { courseId } = useParams();
     const [course, setCourse] = useState(null);
 
     useEffect(() => {
-        if (courseDetailsData[theme] && courseDetailsData[theme][subject]) {
-            const courseDetails = courseDetailsData[theme][subject].find(course => course.title === title);
+        const fetchCourseDetails = async () => {
+            // Fetch course details by courseId
+            const courseDetails = courseDetailsData.find(course => course.id === parseInt(courseId));
             setCourse(courseDetails);
-        }
-    }, [theme, subject, title]);
+        };
+
+        fetchCourseDetails();
+    }, [courseId]);
 
     if (!course) {
         return <Typography variant="h6">Course not found</Typography>;
@@ -32,7 +35,7 @@ const CourseDetailPage = () => {
     return (
         <Container>
             <Box sx={{ padding: 4 }}>
-                <Typography variant="h4" gutterBottom>{title}</Typography>
+                <Typography variant="h4" gutterBottom>{course.title}</Typography>
                 <Typography variant="h6" gutterBottom>By {course.instructor}</Typography>
                 <Rating name="read-only" value={course.rating} readOnly />
 
