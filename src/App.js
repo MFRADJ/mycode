@@ -16,6 +16,8 @@ import CoursDetailsStudentPage from "./pages/CoursDetailsStudentPage";
 import ScheduleEvaluationPage from "./pages/ScheduleEvaluationPage";
 import ScheduleSessionPage from "./pages/ScheduleSessionPage";
 import CreateCoursePage from "./pages/CreateCoursePage";
+import DashboardAdmin from "./pages/DashBoardAdmin";
+import AdminDashboard from "./pages/DashBoardAdmin";
 
 function App() {
 
@@ -37,6 +39,7 @@ function App() {
                     <Route path="/activate-account" element={<VerificationPage/>} />
                     <Route path="/dashboard" element={<DashboardPage />} />
                     <Route path="/trainer-dashboard/*" element={<TrainerDashboard />} />
+                    <Route path="/admin-dashboard" element={<AdminDashboard  />} />
                     <Route path="/course-details/:courseId" element={<CoursDetailsStudentPage />} />
                     <Route path="create" element={<CreateCoursePage />} />
                     <Route path="schedule-session" element={<ScheduleSessionPage />} />
